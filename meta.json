@@ -4,7 +4,7 @@
   "description": "Get ready for the Ontario G1 knowledge test and the road ahead: licensing steps, traffic signs, lights and markings, rules of the road, safe and legal driving, and what the road tests check.",
   "image": "cover.png",
   "file": "ontario-g1-drivers-licence.zip",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "tags": [
     "canada",
     "ontario",
@@ -19,6 +19,16 @@
       "version": "1.0.0",
       "date": "2026-10-02",
       "notes": "Initial release - 20 decks, 74 packs, 559 cards."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29",
+      "notes": "Removes the Wikipedia links from glossary terms that have a Learn more article; the article is now the single place to read more."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-29",
+      "notes": "Rewrites the Learn more articles in a warmer, teacher-to-student voice; no change to the content or the glossary."
     }
   ],
   "toc": [
