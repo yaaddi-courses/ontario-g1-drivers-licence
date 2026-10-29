@@ -1,0 +1,46 @@
+{
+  "id": "e1c07b93a5f2",
+  "title": "Ontario G1 Driver's Licence",
+  "description": "Get ready for the Ontario G1 knowledge test and the road ahead: licensing steps, traffic signs, lights and markings, rules of the road, safe and legal driving, and what the road tests check.",
+  "image": "cover.png",
+  "file": "ontario-g1-drivers-licence.zip",
+  "version": "1.0.0",
+  "tags": [
+    "canada",
+    "ontario",
+    "driving",
+    "g1",
+    "drivers-licence",
+    "test-prep",
+    "beginner"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-02",
+      "notes": "Initial release - 20 decks, 74 packs, 559 cards."
+    }
+  ],
+  "toc": [
+    "Graduated Licensing",
+    "The G1 Knowledge Test",
+    "Sign Shapes and Colours",
+    "Regulatory Signs",
+    "Warning Signs",
+    "Temporary and Information Signs",
+    "Traffic Lights and Pedestrian Signals",
+    "Pavement Markings",
+    "Getting Ready to Drive",
+    "Speed and Following Distance",
+    "Intersections and Right of Way",
+    "Turning, Lane Changes and Passing",
+    "Stopping and Parking",
+    "Sharing the Road",
+    "Freeways and Special Roads",
+    "Night, Weather and Emergencies",
+    "Impaired and Distracted Driving",
+    "Demerit Points and Suspensions",
+    "Vehicle, Insurance and Registration",
+    "The Road Tests"
+  ]
+}

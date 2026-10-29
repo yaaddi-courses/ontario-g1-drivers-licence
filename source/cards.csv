@@ -1,0 +1,616 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,Ontario licenses new drivers in three steps.,,true,,,True. This system is called graduated licensing.
+2,1,multiple_choice,main,,How many steps does graduated licensing have?,Three|Two|Five,0,,,"Graduated licensing has three steps: Class G1, Class G2, then full Class G. The rules ease at each step."
+3,1,select_blank,exercise,2,"The steps are G1, G2 and full ___.",M|G|A,1,,,The last step is full Class G.
+4,1,multiple_choice,exercise,2,Which is the first step?,G2|G|G1,2,,,Class G1 is the first step.
+5,1,true_false,exercise,2,Graduated licensing puts G2 before G1.,,false,,,"False. G1 is the first step, then G2."
+6,1,multiple_choice,exercise,2,Which step gives full car privileges?,Class G|Class G1|Class G2,0,,,"Class G is the full licence for cars, vans and small trucks."
+7,1,true_false,exercise,2,Class G is the full licence for cars.,,true,,,"True. It covers cars, vans and small trucks."
+8,1,select_blank,exercise,2,Class ___ is the step after G1.,M|G2|A,1,,,Class G2 follows G1.
+9,1,multiple_choice,exercise,2,Why is it called graduated?,Costs less|Is optional|Rules ease,2,,,Rules ease as you move up each step.
+10,1,true_false,exercise,2,A new driver gets full privileges at once.,,false,,,False. Privileges are earned step by step.
+11,1,true_false,preview,12,A G1 driver must have an accompanying driver.,,true,,,True. G1 drivers may not drive alone.
+12,1,multiple_choice,main,,Who must sit beside a G1 driver?,Experienced driver|Any adult|A child,0,,,"G1 needs an accompanying driver (4+ years), zero blood alcohol, and time and highway limits: no midnight-to-5 a.m., no 400-series."
+13,1,select_blank,exercise,12,A G1 driver's blood alcohol must be ___.,0.05|zero|0.08,1,,,G1 drivers must have zero blood alcohol.
+14,1,true_false,exercise,12,G1 drivers may drive alone.,,false,,,False. An accompanying driver must sit in the front seat.
+15,1,multiple_choice,exercise,12,Which hours are off-limits for G1?,Noon-1 p.m.|6-8 p.m.|Midnight-5 a.m.,2,,,G1 drivers must not drive between midnight and 5 a.m.
+16,1,select_blank,exercise,12,The accompanying driver needs ___ years of experience.,four|one|ten,0,,,The accompanying driver needs at least four years of experience.
+17,1,true_false,exercise,12,G1 drivers may use any highway.,,false,,,False. Fast 400-series highways (posted over 80 km/h) are off-limits.
+18,1,multiple_choice,exercise,12,Where does the accompanying driver sit?,Back seat|Front seat|Trunk,1,,,The accompanying driver sits in the front passenger seat.
+19,1,true_false,preview,20,G2 drivers 19 and under have passenger limits.,,true,,,True. They apply between midnight and 5 a.m.
+20,1,multiple_choice,main,,What is the G2 blood alcohol limit?,0.05|0.08|Zero,2,,,G2 drivers must also have zero blood alcohol. Drivers 19 and under are limited to one passenger aged 19 or under at first.
+21,1,true_false,exercise,20,G2 drivers may drink and drive a little.,,false,,,False. G2 drivers must have zero blood alcohol.
+22,1,select_blank,exercise,20,G2 drivers must have ___ blood alcohol.,zero|low|legal,0,,,The limit is zero.
+23,1,multiple_choice,exercise,20,Passenger limits apply between midnight and ___.,7 a.m.|5 a.m.|3 a.m.,1,,,They apply from midnight to 5 a.m.
+24,1,true_false,exercise,20,Drivers 21 and under must have zero blood alcohol.,,true,,,True. This applies regardless of licence class.
+25,1,true_false,preview,26,G1 usually lasts twelve months.,,true,,,True. An approved course can shorten it.
+26,1,multiple_choice,main,,How long is G1 with an approved course?,Twelve months|Six months|Eight months,2,,,"G1 lasts twelve months, or eight months after an approved beginner driver education course of at least 40 hours."
+27,1,select_blank,exercise,26,G1 normally lasts ___ months.,12|8|6,0,,,G1 normally lasts twelve months.
+28,1,select_blank,exercise,26,"With an approved course, G1 can be ___ months.",12|8|4,1,,,An approved course reduces it to eight months.
+29,1,true_false,exercise,26,Beginner driver education is at least 40 hours.,,true,,,True. The course must be at least 40 hours.
+30,1,multiple_choice,exercise,26,What shortens G1 by four months?,Night driving|Extra fee|Approved course,2,,,Completing approved beginner driver education does.
+31,1,true_false,exercise,26,A course makes G1 last longer.,,false,,,False. It shortens G1 from twelve to eight months.
+32,1,select_blank,exercise,26,Beginner driver ___ shortens G1.,education|insurance|testing,0,,,Beginner driver education is the approved course.
+33,1,true_false,preview,34,You must pass a vision test to get licensed.,,true,,,True. It is one of the first steps.
+34,1,multiple_choice,main,,Which test checks your eyesight?,Knowledge test|Vision test|Road test,1,,,"Pass a vision test, show original identity documents (proof of name and birth date), and later pass two road tests."
+35,1,true_false,exercise,34,Identity documents must be originals.,,true,,,"True. Original, valid proof of name and birth date is required."
+36,1,select_blank,exercise,34,Applicants must pass a ___ test.,hearing|maths|vision,2,,,A vision test is required.
+37,1,multiple_choice,exercise,34,How many road tests are there?,Two|One|Four,0,,,There are two road tests: one to leave G1 and one to leave G2.
+38,1,true_false,exercise,34,Identity documents can be photocopies.,,false,,,False. You must show original documents.
+39,1,multiple_choice,exercise,34,Which proves your name and birth date?,Library card|Valid passport|Gym pass,1,,,A valid passport is an acceptable original document.
+40,1,select_blank,exercise,34,You take ___ road tests in total.,one|three|two,2,,,One at the end of G1 and one at the end of G2.
+41,1,true_false,preview,42,New residents get sixty days to use their old licence.,,true,,,True. Some licences can also be exchanged.
+42,1,multiple_choice,main,,How long can new residents use an old licence?,60 days|30 days|One year,0,,,New residents get a sixty-day grace period to use their licence. Licence exchange is possible for some provinces and countries.
+43,1,true_false,exercise,42,Some foreign licences can be exchanged for an Ontario one.,,true,,,True. Licences from some countries and provinces can be exchanged.
+44,1,select_blank,exercise,42,New residents have ___ days.,30|60|90,1,,,The grace period is sixty days.
+45,1,multiple_choice,exercise,42,What can some residents do with licences?,Sell it|Lend it|Exchange it,2,,,They can exchange it for an Ontario licence.
+46,1,true_false,exercise,42,Licence exchange means retaking all tests.,,false,,,False. Some licences can be exchanged without full testing.
+47,2,true_false,preview,48,The test has signs and rules sections.,,true,,,True. Each section is marked separately.
+48,2,multiple_choice,main,,How many questions are on the G1 test?,40|20|100,0,,,"The G1 knowledge test has 40 questions: 20 on road signs, 20 on rules of the road. Pass mark: 16 correct per section."
+49,2,select_blank,exercise,48,The test has ___ questions.,20|40|80,1,,,There are 40 questions.
+50,2,select_blank,exercise,48,You need ___ correct in each section.,10|20|16,2,,,The pass mark is 16 correct in each section.
+51,2,true_false,exercise,48,The test has two sections.,,true,,,True. One is road signs and one is rules of the road.
+52,2,multiple_choice,exercise,48,How many signs questions are there?,20|40|16,0,,,There are 20 questions on road signs.
+53,2,true_false,exercise,48,You pass with 16 correct overall.,,false,,,False. You need 16 correct in each section.
+54,2,multiple_choice,exercise,48,What is the pass mark per section?,10 correct|16 correct|20 correct,1,,,You need 16 correct in the signs section and 16 in the rules section.
+55,2,true_false,preview,56,You must wait ten days between failed tests.,,true,,,True. This applies before you retry.
+56,2,multiple_choice,main,,How long must you wait after a failed test?,1 day|30 days|10 days,2,,,The waiting period after a failed test is at least 10 days before you can retake it.
+57,2,select_blank,exercise,56,Wait at least ___ days to retry.,10|1|30,0,,,The minimum wait is ten days.
+58,2,true_false,exercise,56,You can retake a failed test the next day.,,false,,,False. You must wait at least ten days.
+59,2,true_false,exercise,56,The waiting period applies between tests.,,true,,,True. You must wait at least 10 days between tests.
+60,2,true_false,preview,61,"G1 comes first, then G2, then full G.",,true,,,True. Each step has its own rules.
+61,2,multiple_choice,main,,How many road tests are needed in total?,One|Two|Three,1,,,Two road tests: one to leave G1 and one to leave G2.
+62,2,match_pairs,exercise,61,Match each item to its meaning.,G1↔Learner stage|G2↔Second stage|Class G↔Full licence|BDE↔Course shortens G1,,,,Each item is part of the licensing steps.
+63,2,select_blank,exercise,61,Drivers 21 and under need blood alcohol ___.,0.05|0.08|zero,2,,,Zero blood alcohol is required.
+64,2,true_false,exercise,61,The knowledge test needs 16 correct per section.,,true,,,True. There are two sections of 20 questions.
+65,2,multiple_choice,exercise,61,Which test is for eyesight?,Vision test|Knowledge test|Road test,0,,,The vision test checks your eyesight.
+66,2,true_false,exercise,61,Eight months applies after an approved course.,,true,,,True. Approved beginner driver education shortens G1 to eight months.
+67,2,select_blank,exercise,61,Wait ___ days after a failed test.,3|10|30,1,,,You must wait at least ten days.
+68,2,match_pairs,exercise,61,"Match each term, round 1.",Graduated licensing↔Three-step licence|Beginner driver education↔40-hour course,,,,Each term goes with its short meaning.
+69,3,true_false,preview,70,Sign shapes warn you before you read.,,true,,,True. Each shape has its own meaning.
+70,3,multiple_choice,main,,What shape is a stop sign?,Triangle|Diamond|Octagon,2,signs/stop.png,,"A stop sign is an octagon, yield is a triangle, warning signs are diamonds and regulatory signs are rectangles."
+71,3,true_false,exercise,70,A yield sign is a triangle.,,true,signs/yield.png,,True. A yield sign is a downward-pointing triangle.
+72,3,multiple_choice,exercise,70,What shape are most warning signs?,Diamond|Octagon|Circle,0,signs/curve_l.png,,Warning signs are usually diamond-shaped with a yellow background.
+73,3,select_blank,exercise,70,Regulatory signs are usually ___ in shape.,round|rectangular|triangular,1,,,"Regulatory signs, which give rules, are usually rectangular."
+74,3,true_false,exercise,70,A stop sign is a triangle.,,false,signs/stop.png,,False. A stop sign is an octagon.
+75,3,multiple_choice,exercise,70,Which sign is a triangle?,Stop|Speed limit|Yield,2,,,A yield sign is a triangle.
+76,3,true_false,exercise,70,Diamond signs warn you about hazards.,,true,signs/deer.png,,True. Yellow diamonds warn of hazards ahead.
+77,3,multiple_choice,exercise,70,What shape is this sign?,Rectangle|Octagon|Triangle,0,signs/speed50.png,,A speed limit sign is rectangular.
+78,3,select_blank,exercise,70,A yield sign is shaped like a ___.,octagon|triangle|diamond,1,,,A yield sign is a triangle.
+79,3,true_false,preview,80,Sign colours carry meaning too.,,true,,,True. Colour tells you the sign type.
+80,3,multiple_choice,main,,What colour are warning signs?,Green|Blue|Yellow,2,signs/curve_l.png,,Yellow warning signs have black symbols; orange means temporary; red and white mark regulatory signs.
+81,3,multiple_choice,exercise,80,What colour are construction signs?,Orange|Yellow|Blue,0,signs/construction.png,,Orange signs warn of temporary conditions such as roadwork.
+82,3,true_false,exercise,80,Orange signs mean temporary conditions.,,true,signs/workers.png,,True. Orange is used for construction and other temporary hazards.
+83,3,multiple_choice,exercise,80,What colour is a stop sign?,Yellow|Red|Green,1,,,A stop sign is red with white letters.
+84,3,select_blank,exercise,80,Guide signs are usually ___.,orange|red|green,2,,,Information and direction signs are typically green with white letters.
+85,3,true_false,exercise,80,Yellow signs warn you about hazards.,,true,signs/roughroad.png,,True. Yellow diamonds warn of hazards ahead.
+86,3,multiple_choice,exercise,80,What colour is this sign?,Orange|Yellow|Green,0,signs/detourahead.png,,Orange means construction or another temporary condition.
+87,4,true_false,preview,88,A stop sign means a complete stop.,,true,,,True. Stop behind the line.
+88,4,multiple_choice,main,,What must you do at this sign?,Slow down|Stop completely|Honk,1,signs/stop.png,,"Stop sign: stop completely at the line, then go when safe. Yield sign: slow down or stop and give way."
+89,4,true_false,exercise,88,At a yield sign you may never stop.,,false,signs/yield.png,,"False. Slow down or stop if needed, then go when the way is clear."
+90,4,multiple_choice,exercise,88,What does this sign mean?,Stop|Park|Yield,2,signs/yield.png,,Yield means slow down or stop and let others go first.
+91,4,select_blank,exercise,88,"At a yield sign, slow down or ___.",stop|speed up|honk,0,,,At a yield sign you slow down or stop until the way is clear.
+92,4,true_false,exercise,88,A rolling stop is allowed at a stop sign.,,false,,,False. You must make a complete stop.
+93,4,true_false,preview,94,Speed limit signs show the maximum speed.,,true,,,True. Speeds are in kilometres an hour.
+94,4,multiple_choice,main,,What does this sign tell you?,Minimum speed|Maximum speed|Distance,1,signs/speed50.png,,A speed limit sign shows the maximum speed in km/h. A no parking sign and a no stopping sign limit where you stop.
+95,4,true_false,exercise,94,Speed limits are in miles per hour.,,false,signs/speed80.png,,False. Ontario signs use kilometres per hour.
+96,4,select_blank,exercise,94,The maximum speed here is ___ km/h.,50|40|80,2,signs/speed80.png,,This sign shows a maximum of 80 km/h.
+97,4,multiple_choice,exercise,94,What does this sign mean?,No parking|No stopping|No turns,0,signs/noparking.png,,No parking means you may not park there.
+98,4,true_false,exercise,94,A no parking sign means you may park briefly.,,false,signs/noparking.png,,False. Do not park where this sign applies.
+99,4,multiple_choice,exercise,94,Which sign forbids stopping?,No parking|No stopping|Yield,1,signs/nostopping.png,,A no stopping sign means you may not stop there at all.
+100,4,true_false,exercise,94,This sign allows stopping briefly.,,false,signs/nostopping.png,,False. No stopping means you may not stop there.
+101,4,true_false,preview,102,A red circle with a bar means do not enter.,,true,,,True. Never drive in.
+102,4,multiple_choice,main,,What does this sign mean?,Yield|Stop|Do not enter,2,signs/noentry.png,,"Do not enter. Never drive past it, because you would be going the wrong way."
+103,4,true_false,exercise,102,You may enter past this sign.,,false,signs/noentry.png,,False. Entering would put you against traffic.
+104,4,multiple_choice,exercise,102,What kind of street is this?,One-way|Two-way|Closed,0,signs/oneway.png,,Traffic goes only in the direction of the arrow.
+105,4,select_blank,exercise,102,An arrow sign shows ___ traffic direction.,two-way|one-way|any,1,signs/oneway.png,,A one-way sign shows the only allowed direction.
+106,4,multiple_choice,exercise,102,What does this sign warn you about?,Speed limit|Parking|Wrong way,2,signs/wrongway.png,,You are going the wrong way. Stop and turn around safely.
+107,4,true_false,exercise,102,You may back down a one-way street.,,false,signs/oneway.png,,False. Travel only in the signed direction.
+108,4,multiple_choice,exercise,102,Which sign shows you entering wrongly?,Wrong way|Yield|School zone,0,,,A wrong way sign means you have entered against traffic.
+109,4,true_false,preview,110,Turn signs forbid certain moves.,,true,,,True. Obey them every time.
+110,4,multiple_choice,main,,Which turn does this ban?,Right turn|Left turn|U-turn,1,signs/noleft.png,,"A red circle with a slash bans the turn shown, such as no left turn or no U-turn. Keep right signs say stay right."
+111,4,true_false,exercise,110,This sign allows left turns.,,false,signs/noleft.png,,False. The slash means that turn is forbidden.
+112,4,multiple_choice,exercise,110,What does this sign forbid?,Left turns|Stopping|Right turns,2,signs/noright.png,,The slashed arrow shows a right turn is banned.
+113,4,multiple_choice,exercise,110,Which move does this ban?,U-turn|Stopping|Left turn,0,signs/nouturn.png,,You may not make a U-turn here.
+114,4,select_blank,exercise,110,This sign forbids ___.,parking|U-turns|passing,1,signs/nouturn.png,,A slashed U-shaped arrow forbids U-turns.
+115,4,multiple_choice,exercise,110,What must you do at this sign?,Keep left|Stop|Keep right,2,signs/keepright.png,,Keep to the right of the barrier or island.
+116,4,true_false,exercise,110,This sign says to pass on the left side.,,false,signs/keepright.png,,False. Keep right of the obstruction.
+117,4,true_false,preview,118,Signs you know protect you.,,true,,,True. Review the basics.
+118,4,multiple_choice,main,,Which step needs an accompanying driver?,G1|G2|G,0,,,G1 drivers must have an accompanying driver.
+119,4,multiple_choice,exercise,118,Which sign has an octagon shape?,Yield|Stop|Speed limit,1,,,Only the stop sign is an octagon.
+120,4,multiple_choice,exercise,118,What does this sign mean?,Stop|Yield|Do not enter,2,signs/noentry.png,,A red circle with a white bar means do not enter.
+121,4,true_false,exercise,118,Yellow diamonds are warning signs.,,true,signs/intersection.png,,True. They warn of hazards ahead.
+122,4,select_blank,exercise,118,Speed limit signs show the ___ speed.,maximum|minimum|average,0,,,They show the maximum allowed speed.
+123,4,multiple_choice,exercise,118,Which sign bans stopping there?,No parking|No stopping|Yield,1,signs/nostopping.png,,A no stopping sign means you may not stop there.
+124,4,true_false,exercise,118,Wait ten days after a failed test.,,true,,,True. You must wait at least ten days before retaking.
+125,5,true_false,preview,126,A curve sign means slow down for the bend.,,true,,,True. Check the advisory speed.
+126,5,multiple_choice,main,,What does this sign warn of?,A hill|A bridge|A curve,2,signs/curve_l.png,,A curve warning: slow down before the bend. Signs also show a steep hill or a winding road.
+127,5,multiple_choice,exercise,126,What does 18% show?,Steepness|Speed|Distance,0,signs/steep.png,,A steep hill ahead. The percentage shows how steep the grade is.
+128,5,true_false,exercise,126,This sign means a straight road.,,false,signs/winding.png,,False. It warns of a winding road.
+129,5,select_blank,exercise,126,This sign warns of a ___ road.,straight|winding|closed,1,signs/winding.png,,A winding road has several curves in a row.
+130,5,multiple_choice,exercise,126,Which way does the road bend?,Sharp left|Straight|Sharp right,2,signs/sharp_r.png,,The road bends sharply to the right ahead.
+131,5,true_false,exercise,126,Slow down before entering a curve.,,true,,,True. Hard braking inside a curve can make you lose control.
+132,5,multiple_choice,exercise,126,Which way does the curve warning turn?,Left|Right|Straight,0,signs/turn90.png,,The road turns left ahead at about ninety degrees.
+133,5,true_false,preview,134,A cross-shaped sign warns of an intersection.,,true,,,True. Watch for crossing traffic.
+134,5,multiple_choice,main,,What does this sign warn of?,Railway|Intersection|Hospital,1,signs/intersection.png,,An intersection ahead: watch for traffic from both sides. A traffic signal ahead sign warns of lights.
+135,5,true_false,exercise,134,A T-shaped sign means your road ends.,,true,signs/tint.png,,True. It warns of a T-intersection ahead.
+136,5,multiple_choice,exercise,134,What is ahead?,Railway|Hospital|Traffic lights,2,signs/signalsahead.png,,Traffic lights are ahead. Watch for them and be ready to stop.
+137,5,select_blank,exercise,134,This sign warns a stop is ___.,ahead|behind|closed,0,signs/stopahead.png,,A stop sign ahead gives you time to slow down.
+138,5,true_false,exercise,134,This sign means a yield sign is ahead.,,true,signs/yieldahead.png,,True. Be ready to slow down or stop.
+139,5,true_false,preview,140,Warning signs show how the road changes.,,true,,,True. Read them early.
+140,5,multiple_choice,main,,What does this sign warn of?,Lane added|Lane ends|Road closed,1,signs/laneends.png,,One lane ends ahead; move over early. Other signs show where a divided road begins or ends.
+141,5,true_false,exercise,140,This sign means a new lane starts.,,false,signs/laneends.png,,False. A lane ends ahead.
+142,5,multiple_choice,exercise,140,What does this sign show?,Divider ends|Road narrows|Divider begins,2,signs/dividedbegins.png,,A divider separates opposite traffic ahead. Keep to your side.
+143,5,select_blank,exercise,140,Here the road ___ into two separate roadways.,splits|joins|ends,0,signs/dividedbegins.png,,"A median begins, separating opposite directions of traffic."
+144,5,multiple_choice,exercise,140,What changes ahead?,Divider begins|Divider ends|Lane ends,1,signs/dividedends.png,,The median ends. Expect two-way traffic on one roadway.
+145,5,true_false,exercise,140,"After this sign, oncoming traffic shares your road.",,true,signs/dividedends.png,,"True. The divider ends, so be alert for oncoming vehicles."
+146,5,multiple_choice,exercise,140,Which sign shows pavement narrowing?,Lane ends|Detour|Road narrows,2,signs/narrows.png,,A road narrows sign warns the pavement gets narrower.
+147,5,true_false,preview,148,Watch for children near schools and parks.,,true,,,True. They may run into the road.
+148,5,multiple_choice,main,,What does this sign warn of?,Pedestrians|Cyclists|Animals,0,signs/pedestrians.png,,A pedestrian crossing: slow down and be ready to stop. Also watch for a school zone or playground.
+149,5,multiple_choice,exercise,148,What does this sign mean?,Hospital|School zone|Park,1,signs/schoolzone.png,,A school zone. Watch for children and obey the lower speed.
+150,5,true_false,exercise,148,A school zone sign is fluorescent yellow-green.,,true,signs/schoolcross.png,,True. School signs are fluorescent yellow-green.
+151,5,select_blank,exercise,148,This sign warns of a ___.,farm|hospital|playground,2,signs/playground.png,,Children may run into the road near a playground.
+152,5,multiple_choice,exercise,148,What is the hazard here?,Children playing|Farm animals|Buses,0,signs/playground.png,,Slow down; children may run out suddenly.
+153,5,true_false,exercise,148,You may ignore school signs on weekends.,,false,,,False. Always watch for children near schools.
+154,5,multiple_choice,exercise,148,What does this sign show?,School bus|Pedestrian crossover|Bus stop,1,signs/pedxover.png,,"At a pedestrian crossover, stop and yield to pedestrians."
+155,5,true_false,preview,156,Trains cannot stop quickly.,,true,,,True. They need a very long distance.
+156,5,multiple_choice,main,,What does this sign warn of?,Intersection|Bridge|Railway crossing,2,signs/railway.png,,Advance warning: a railway crossing is ahead. The crossing has an X-shaped sign; slow down and look both ways.
+157,5,true_false,exercise,156,Trains can stop quickly.,,false,,,False. A train needs a very long distance to stop.
+158,5,multiple_choice,exercise,156,What shape marks the crossing itself?,X-shaped|Octagon|Round,0,,,"The crossing sign is X-shaped, white with a red outline."
+159,5,select_blank,exercise,156,Stop at least ___ metres from the nearest rail.,2|5|15,1,,,Stop at least 5 metres from the nearest rail or gate.
+160,5,multiple_choice,exercise,156,Which sign is the advance warning?,Octagon|Triangle|Yellow diamond,2,signs/railway.png,,The yellow diamond warns you before the crossing.
+161,5,true_false,exercise,156,You may go around lowered gates at the crossing.,,false,,,False. Never go around or under gates.
+162,5,true_false,exercise,156,You may race a train at the crossing.,,false,,,False. Never race a train.
+163,5,true_false,preview,164,Road surface signs warn of changes.,,true,,,True. Adjust speed early.
+164,5,multiple_choice,main,,What does this sign warn of?,Slippery road|Bumpy road|Steep hill,0,signs/slippery.png,,A slippery when wet sign: slow down. Other signs warn of a bump or a narrow bridge.
+165,5,true_false,exercise,164,This sign warns of a bump ahead.,,true,signs/hump.png,,True. Slow down before the bump.
+166,5,multiple_choice,exercise,164,What is ahead?,A dip|A bump|A bridge,1,signs/hump.png,,A raised hump in the road ahead.
+167,5,select_blank,exercise,164,This sign warns of a ___ bridge.,tall|toll|narrow,2,signs/narrowbridge.png,,The bridge is narrower than the road.
+168,5,multiple_choice,exercise,164,What does this sign mean?,Narrow bridge|Road closed|Divided road,0,signs/narrowbridge.png,,The bridge ahead is narrow. Slow down and stay in your lane.
+169,5,true_false,exercise,164,Slippery signs apply only in winter.,,false,signs/slippery.png,,False. Wet roads are slippery in any season.
+170,5,multiple_choice,exercise,164,What changes ahead?,A bump|Pavement ends|Rough road,1,signs/pavementends.png,,The paved surface ends. Slow down for gravel or dirt.
+171,5,true_false,preview,172,Warning signs tell you what is ahead.,,true,,,True. Review them once more.
+172,5,multiple_choice,main,,What colour is a warning sign?,Green|Blue|Yellow,2,,,Warning signs are yellow diamonds with black symbols.
+173,5,multiple_choice,exercise,172,What is the hazard?,Slippery road|Bump|Curve,0,signs/slippery.png,,The road may be slippery. Slow down.
+174,5,true_false,exercise,172,This sign marks a school zone.,,true,signs/schoolzone.png,,True. Watch for children.
+175,5,multiple_choice,exercise,172,What lies ahead?,Intersection|Railway|Bridge,1,signs/railway.png,,A railway crossing is ahead.
+176,5,select_blank,exercise,172,An octagon always means ___.,yield|slow|stop,2,,,An octagon means stop.
+177,5,multiple_choice,exercise,172,Which road is shown?,Winding road|Divided road|Hill,0,signs/winding.png,,Several curves in a row ahead.
+178,5,true_false,exercise,172,Yield signs are triangles.,,true,,,True. Slow down or stop if needed.
+179,6,true_false,preview,180,Orange signs warn of temporary hazards.,,true,,,True. Work zones change often.
+180,6,multiple_choice,main,,What does this sign warn of?,Road closed|Construction ahead|Detour,1,signs/construction.png,,Orange signs mean construction: slow down for workers ahead. A flagger ahead may stop you.
+181,6,true_false,exercise,180,Orange signs apply only while work continues.,,true,,,True. They mark temporary conditions.
+182,6,multiple_choice,exercise,180,Who may be ahead?,Hunters|Animals|Workers,2,signs/workers.png,,Workers are on or near the road. Slow down.
+183,6,select_blank,exercise,180,Slow down when workers are ___.,present|absent|sleeping,0,,,Workers may be close to your lane.
+184,6,multiple_choice,exercise,180,What should you do?,Speed up|Slow down|Turn left,1,signs/flaggerauto.png,,Slow down and prepare to stop; a flagger or temporary signal ahead may stop you.
+185,6,true_false,exercise,180,This orange sign shows a lower speed.,,true,signs/workspeed.png,,True. Obey the construction-zone limit.
+186,6,multiple_choice,exercise,180,What is changing ahead?,Road closed|Parking|Detour,2,signs/detourahead.png,,Be ready to follow a different route.
+187,6,true_false,preview,188,Green signs guide you to places.,,true,,,True. They give directions.
+188,6,multiple_choice,main,,What colour are guide signs?,Green|Yellow|Red,0,,,"Green guide signs, such as exit signs and distance signs, have white letters."
+189,6,true_false,exercise,188,Guide signs give directions.,,true,,,True. They name places and exits.
+190,6,select_blank,exercise,188,Exit signs help you ___.,park|leave|stop,1,,,They show where to leave the highway.
+191,6,multiple_choice,exercise,188,What do distance signs show?,Time|Cost|Kilometres,2,,,They show how far places are in kilometres.
+192,6,true_false,exercise,188,Guide signs are orange.,,false,,,False. Guide signs are green.
+193,6,multiple_choice,exercise,188,Which sign names the next town?,Guide sign|Stop sign|Yield sign,0,,,Green guide signs name destinations.
+194,6,true_false,exercise,188,Exit signs are green.,,true,,,True. Exit and direction signs are green with white letters.
+195,7,true_false,preview,196,Traffic lights control who goes.,,true,,,True. Obey them.
+196,7,multiple_choice,main,,What does a red light mean?,Slow|Stop|Go,1,diagrams/light_red.png,,Red: stop (right turn allowed after stopping unless signed). Yellow: prepare to stop. Green: go carefully.
+197,7,multiple_choice,exercise,196,What does a green light mean?,Stop|Speed up|Go carefully,2,diagrams/light_green.png,,"Proceed with care, yielding to traffic and pedestrians in the intersection."
+198,7,true_false,exercise,196,Yellow means speed up.,,false,diagrams/light_yellow.png,,False. Yellow means red is coming; stop if you can do so safely.
+199,7,select_blank,exercise,196,Yellow means the light is about to turn ___.,red|green|blue,0,diagrams/light_yellow.png,,Stop if you can safely; otherwise proceed with caution.
+200,7,multiple_choice,exercise,196,What must you do at this light?,Go|Stop|Slow down,1,diagrams/light_red.png,,Red means stop completely.
+201,7,multiple_choice,exercise,196,Which light means get ready to stop?,Green|Red|Yellow,2,,,Yellow means red is about to appear.
+202,7,true_false,exercise,196,"After stopping at red, a right turn may be allowed.",,true,,,"True. Unless a sign forbids it, you may turn right after stopping and yielding."
+203,7,true_false,preview,204,Flashing lights need extra care.,,true,,,True. Their meanings differ from steady lights.
+204,7,multiple_choice,main,,What does a flashing red light mean?,Stop first|Slow down|Go,0,diagrams/light_flash_red.png,,"Flashing red: stop, then go when safe. Flashing yellow: caution. A green arrow lets you turn."
+205,7,true_false,exercise,204,Flashing yellow means proceed with caution.,,true,diagrams/light_flash_yellow.png,,True. Slow down and watch for hazards.
+206,7,multiple_choice,exercise,204,What does this light mean?,Stop|Caution|Go fast,1,diagrams/light_flash_yellow.png,,Slow down and proceed with caution.
+207,7,multiple_choice,exercise,204,What does a green arrow mean?,No turning|Stop|Turn allowed,2,diagrams/light_green_arrow.png,,You may turn in the arrow's direction; the signal protects the turn.
+208,7,true_false,exercise,204,A flashing green allows turning left.,,true,diagrams/light_flash_green.png,,"True. It is an advance green, so you may turn or go straight."
+209,7,select_blank,exercise,204,"Unlike a green arrow, yellow means ___ turning.",don't start|start|speed,0,diagrams/light_yellow_arrow.png,,A yellow arrow means do not start your left turn; red is coming.
+210,7,multiple_choice,exercise,204,"If the lights are out, treat it as ___.",Green|All-way stop|Yield,1,diagrams/light_out.png,,A signal that is out works like an all-way stop.
+211,7,true_false,preview,212,Pedestrian signals protect walkers.,,true,,,True. Watch for them.
+212,7,multiple_choice,main,,What does this signal mean?,Don't walk|Stop|Walk,2,diagrams/ped_walk.png,,A walking person means cross. An orange hand means do not start crossing.
+213,7,multiple_choice,exercise,212,What does an orange hand mean?,Don't walk|Walk|Hurry,0,diagrams/ped_hand.png,,Do not start crossing.
+214,7,true_false,exercise,212,A steady hand means finish crossing quickly.,,true,diagrams/ped_hand.png,,"True. If already crossing, finish quickly; do not start."
+215,7,select_blank,exercise,212,A flashing hand means do not ___ crossing.,finish|start|avoid,1,diagrams/ped_hand_flashing.png,,A flashing orange hand means do not start crossing.
+216,7,true_false,exercise,212,Pedestrians may cross on a left-turn arrow.,,false,,,False. They may not cross on a flashing green or left-turn arrow.
+217,7,multiple_choice,exercise,212,What does a white walking person mean?,Cars go|Trains pass|Pedestrians cross,2,diagrams/ped_walk.png,,It means it is safe for pedestrians to begin crossing.
+218,7,true_false,exercise,212,Drivers must yield to people still crossing.,,true,,,True. Wait for them to clear the intersection.
+219,8,true_false,preview,220,Line colours show traffic direction.,,true,,,True. Yellow separates opposing traffic.
+220,8,multiple_choice,main,,What do yellow lines separate?,Opposite directions|Same direction|Parking,0,diagrams/mark_solid_yellow.png,,Yellow lines separate opposite directions; white lines separate the same direction. A bike lane line is solid white.
+221,8,multiple_choice,exercise,220,What do white lines separate?,Opposite directions|Same direction|Sidewalks,1,diagrams/mark_white_lanes.png,,White lines separate lanes going the same way.
+222,8,true_false,exercise,220,Yellow lines separate same-direction lanes.,,false,diagrams/mark_broken_yellow.png,,False. They separate opposite directions.
+223,8,select_blank,exercise,220,White lines separate ___ traffic.,opposing|parked|same-direction,2,diagrams/mark_white_lanes.png,,White lane lines separate traffic travelling the same way.
+224,8,multiple_choice,exercise,220,A solid white line marks ___.,bike lane|school zone|railway,0,,,A solid white line marks a bike lane.
+225,8,true_false,exercise,220,Bike lanes are marked by a solid white line.,,true,,,True. Do not drive in them.
+226,8,multiple_choice,exercise,220,Which line colour is on your left?,White|Yellow|Red,1,diagrams/mark_solid_yellow.png,,On a two-way road the centre line is yellow.
+227,8,true_false,preview,228,Line patterns tell you whether to pass.,,true,,,True. Broken lines allow passing.
+228,8,multiple_choice,main,,A solid yellow line on your side means ___.,Pass freely|Stop|Don't pass,2,diagrams/mark_solid_yellow.png,,"Solid line on your side: don't pass. Broken line: pass if clear. Continuity lines have wider, closer dashes."
+229,8,true_false,exercise,228,A broken yellow line allows safe passing.,,true,diagrams/mark_broken_yellow.png,,True. Pass only when it is clear.
+230,8,multiple_choice,exercise,228,What does this line mean?,Passing allowed|No passing|Stop,0,diagrams/mark_broken_yellow.png,,A broken yellow line on your side means you may pass when it is clear.
+231,8,select_blank,exercise,228,Pass only when the way is ___.,busy|clear|wet,1,,,Check for oncoming traffic before passing.
+232,8,multiple_choice,exercise,228,Which line means don't pass?,Broken yellow|Broken white|Solid yellow,2,,,A solid yellow line on your side bans passing.
+233,8,true_false,exercise,228,"Continuity lines have wider, closer dashes.",,true,,,True. They mark a lane that ends or continues.
+234,8,multiple_choice,exercise,228,Continuity line on your left means ___.,Lane ends|Lane continues|Stop,0,,,A continuity line on the left means your lane is ending.
+235,8,true_false,preview,236,A stop line shows where to stop.,,true,,,True. Stop before it.
+236,8,multiple_choice,main,,What is a stop line?,Yellow line|White line|Red curb,1,diagrams/mark_stop_line.png,,A stop line is a single white line. A crosswalk has two white lines; a pedestrian crossover adds X marks.
+237,8,true_false,exercise,236,Stop beyond the stop line.,,false,diagrams/mark_stop_line.png,,"False. Stop before the line, not over it."
+238,8,select_blank,exercise,236,A crosswalk is two parallel ___ lines.,yellow|red|white,2,diagrams/mark_crosswalk.png,,Two parallel white lines mark a crosswalk.
+239,8,multiple_choice,exercise,236,What does this marking show?,Crosswalk|Bike lane|Parking,0,diagrams/mark_crosswalk.png,,Two parallel white lines mark a crosswalk.
+240,8,multiple_choice,exercise,236,What marks a pedestrian crossover?,Red lines|X marks|Arrows,1,diagrams/mark_pedxover.png,,Double white lines with an X in each approaching lane mark a crossover.
+241,8,true_false,exercise,236,You must yield at a pedestrian crossover.,,true,diagrams/mark_pedxover.png,,True. Stop and let pedestrians cross.
+242,8,multiple_choice,exercise,236,Which is the stop line?,Double yellow|Dashed white|Single white,2,diagrams/mark_stop_line.png,,A single solid white line across your lane.
+243,8,true_false,preview,244,Arrows on the road tell you where to go.,,true,,,True. They show the lane direction.
+244,8,multiple_choice,main,,What does a white lane arrow show?,Direction|Parking|Speed,0,diagrams/mark_arrow.png,,Move only in the arrow's direction. Solid lines around objects guide you away from them.
+245,8,true_false,exercise,244,A straight arrow allows left turns.,,false,diagrams/mark_arrow.png,,False. A straight arrow means go straight ahead.
+246,8,select_blank,exercise,244,Follow the arrow in your ___.,pocket|lane|trunk,1,diagrams/mark_arrow.png,,Arrows show which way traffic in that lane may go.
+247,8,select_blank,exercise,244,Solid lines around objects guide you ___.,closer|faster|away,2,,,They guide you away from the hazard.
+248,8,true_false,exercise,244,Yellow and black markings may be on objects.,,true,,,True. They warn you of the hazard.
+249,8,true_false,preview,250,Lights and lines work together.,,true,,,True. Review the basics.
+250,8,multiple_choice,main,,Red light means?,Stop|Slow|Go,0,diagrams/light_red.png,,Come to a complete stop.
+251,8,multiple_choice,exercise,250,A flashing red light means?,Slow down|Stop first|Go,1,diagrams/light_flash_red.png,,Treat it like a stop sign.
+252,8,true_false,exercise,250,A walking person means pedestrians may cross.,,true,diagrams/ped_walk.png,,True. A white walking person means walk.
+253,8,multiple_choice,exercise,250,What does a solid yellow line mean?,Pass freely|Stop|Don't pass,2,diagrams/mark_solid_yellow.png,,A solid yellow line on your side means do not pass.
+254,8,select_blank,exercise,250,A stop line is a ___ line.,white|yellow|red,0,diagrams/mark_stop_line.png,,It is a white line.
+255,8,multiple_choice,exercise,250,A green arrow means?,No turn|Turn allowed|Stop,1,diagrams/light_green_arrow.png,,You may turn in the arrow's direction.
+256,8,true_false,exercise,250,Yellow lines separate opposite directions.,,true,diagrams/mark_double_solid.png,,True. White lines separate the same direction.
+257,9,true_false,preview,258,Everyone in the car must wear a seatbelt.,,true,,,True. The driver is responsible for checking.
+258,9,multiple_choice,main,,Who must wear a seatbelt?,Driver only|Adults only|Everyone,2,,,"Check your vehicle and adjust mirrors. Everyone must buckle up; airbags do not replace seatbelts, and not buckling brings a fine."
+259,9,select_blank,exercise,258,Everyone in the car must wear a ___.,seatbelt|helmet|mask,0,,,A seatbelt is required for everyone in the car.
+260,9,true_false,exercise,258,Airbags replace seatbelts.,,false,,,False. Airbags do not replace seatbelts.
+261,9,multiple_choice,exercise,258,What should you adjust before driving?,Radio|Mirrors|Clock,1,,,Adjust your mirrors so you can see around the vehicle.
+262,9,true_false,exercise,258,Not wearing a seatbelt can bring a fine.,,true,,,True. Buckling up is the law.
+263,9,select_blank,exercise,258,Check your ___ before driving.,horoscope|wallet|vehicle,2,,,Check that your vehicle is safe to drive.
+264,9,multiple_choice,exercise,258,Do airbags replace seatbelts?,No|Yes|Sometimes,0,,,No. Seatbelts are still required.
+265,9,true_false,preview,266,Hold the steering wheel at nine and three.,,true,,,True. Steer smoothly and precisely.
+266,9,select_blank,main,,Hold the wheel at ___ and three o'clock.,ten|nine|twelve,1,,,Hand position: nine and three o'clock. Smooth steering is precise. Set the parking brake whenever you park.
+267,9,true_false,exercise,266,Steering should be smooth and precise.,,true,,,True. Jerky steering reduces control.
+268,9,select_blank,exercise,266,Set the ___ brake when you park.,emergency|hand|parking,2,,,Always set the parking brake when you park.
+269,9,multiple_choice,exercise,266,Which hand position is correct?,Nine-three|Ten-two|One hand,0,,,The handbook recommends nine and three o'clock.
+270,9,true_false,exercise,266,Steering with one hand is best.,,false,,,False. Use both hands at nine and three.
+271,9,multiple_choice,exercise,266,When should you set the parking brake?,While driving|When parked|At lights,1,,,Set it whenever you park.
+272,9,select_blank,exercise,266,Steer ___ and precisely.,jerkily|loudly|smoothly,2,,,Steering should be smooth and precise.
+273,10,true_false,preview,274,Posted speed limits always apply.,,true,,,True. Defaults apply only when no limit is posted.
+274,10,multiple_choice,main,,What is the default limit in cities?,50 km/h|60 km/h|80 km/h,0,,,Obey the posted speed limit. The default limit in built-up areas is 50 km/h; elsewhere it is 80 km/h.
+275,10,select_blank,exercise,274,The default limit elsewhere is ___ km/h.,50|80|100,1,,,"Outside cities, towns and villages the default is 80 km/h."
+276,10,true_false,exercise,274,Posted limits apply over defaults.,,true,,,True. A posted sign overrides the default.
+277,10,multiple_choice,exercise,274,What is the default limit in towns?,80 km/h|40 km/h|50 km/h,2,,,Towns default to 50 km/h.
+278,10,true_false,exercise,274,The default limit in cities is 80 km/h.,,false,,,"False. It is 50 km/h in cities, towns and villages."
+279,10,select_blank,exercise,274,Villages default to ___ km/h.,50|80|60,0,,,Villages default to 50 km/h.
+280,10,multiple_choice,exercise,274,Which sign overrides defaults?,Billboard|Posted limit|Mile marker,1,,,A posted speed limit sign does.
+281,10,true_false,preview,282,Leave at least two seconds behind the vehicle ahead.,,true,,,True. This is the minimum gap.
+282,10,multiple_choice,main,,What is the minimum following gap?,One second|Five seconds|Two seconds,2,,,"Following distance is the gap behind the vehicle ahead. Keep at least two seconds (the two-second rule), more in bad weather or behind trucks."
+283,10,select_blank,exercise,282,Keep a ___-second gap.,two|one|half,0,,,The minimum is two seconds.
+284,10,true_false,exercise,282,Two seconds suits bad weather.,,false,,,False. Bad weather needs more space.
+285,10,multiple_choice,exercise,282,When do you need more space?,Clear day|Bad weather|Empty road,1,,,Leave extra space in bad weather or behind trucks.
+286,10,true_false,exercise,282,The two-second rule gives a minimum gap.,,true,,,"True. It is a minimum, for good conditions."
+287,10,true_false,preview,288,Your car keeps moving while you react.,,true,,,True. That adds to your stopping distance.
+288,10,select_blank,main,,___ time is how long you take to respond.,Parking|Braking|Reaction,2,,,Reaction time is how long you take to see a hazard and respond. Stopping distance is the total distance until the car stops.
+289,10,true_false,exercise,288,Stopping distance includes distance during reaction time.,,true,,,True. The car keeps moving while you react.
+290,10,select_blank,exercise,288,Your car keeps moving during ___ time.,reaction|parking|idle,0,,,The car travels during your reaction time.
+291,10,multiple_choice,exercise,288,What is the total distance until you stop?,Reaction time|Stopping distance|Following gap,1,,,That is the stopping distance.
+292,10,true_false,exercise,288,Reaction time ends when the car stops.,,false,,,False. Reaction time ends when you respond to the hazard.
+293,11,true_false,preview,294,Right of way means who goes first.,,true,,,True. Yielding means letting others go first.
+294,11,multiple_choice,main,,What does yield mean?,Speed up|Honk|Give way,2,,,"Right of way is the right to go first. To yield, slow or stop and let others go. Signalling does not give right of way."
+295,11,true_false,exercise,294,Signalling gives you the right of way.,,false,,,False. Signalling does not give you right of way.
+296,11,select_blank,exercise,294,To ___ is to let others go first.,yield|speed|pass,0,,,Yielding means letting others go first.
+297,11,multiple_choice,exercise,294,At a yield sign you should ___.,Speed up|Slow down|Honk,1,,,Slow down or stop if needed and let others go.
+298,11,true_false,exercise,294,Yield means you may ignore others.,,false,,,False. Yield means to let others go first.
+299,11,true_false,preview,300,"At a four-way stop, the first to stop goes first.",,true,,,True. Ties go to the driver on the right.
+300,11,multiple_choice,main,,Two cars arrive together. Who goes first?,Left car|Faster car|Right car,2,,,"Four-way stop: first to stop goes first; if tied, yield to the right. Uncontrolled intersection: the driver on the right goes first."
+301,11,true_false,exercise,300,"At an uncontrolled intersection, yield to the right.",,true,,,True. The driver on the right goes first.
+302,11,select_blank,exercise,300,"If you arrive together, yield to the ___.",right|left|faster,0,,,The driver on the left yields to the driver on the right.
+303,11,multiple_choice,exercise,300,Who goes first at a four-way stop?,Biggest car|First stopper|Fastest car,1,,,The first vehicle to stop goes first.
+304,11,true_false,exercise,300,The driver on the left goes first when tied.,,false,,,False. The driver on the right goes first.
+305,11,true_false,exercise,300,An uncontrolled intersection has no signs or lights.,,true,,,True. Use extra caution and yield to the right.
+306,11,select_blank,exercise,300,Four-way stop: first to ___ goes first.,speed|honk|stop,2,,,The first vehicle to stop goes first.
+307,11,true_false,preview,308,You may turn right on red after stopping.,,true,,,True. Unless a sign prohibits it.
+308,11,multiple_choice,main,,When may you turn right on red?,After stopping|Without stopping|Never,0,,,"Right on red is legal after a full stop unless a sign bans it. Turning left on green, wait for oncoming traffic; pedestrians go first."
+309,11,true_false,exercise,308,A sign can ban right turns on red.,,true,,,True. Obey the sign.
+310,11,select_blank,exercise,308,"Turning left on green, yield to ___ traffic.",passing|oncoming|parked,1,,,Wait for oncoming traffic to clear.
+311,11,multiple_choice,exercise,308,Who goes first when you turn?,Cars|Cyclists|Pedestrians,2,,,Pedestrians go first.
+312,11,true_false,exercise,308,Left turns on green need no waiting.,,false,,,False. Wait for oncoming traffic and pedestrians.
+313,11,select_blank,exercise,308,Turn right on red only after a full ___.,stop|slowdown|signal,0,,,A complete stop is required.
+314,11,true_false,exercise,308,Pedestrians wait for turning cars.,,false,,,False. Pedestrians go first.
+315,11,true_false,preview,316,Traffic in a roundabout has the right of way.,,true,,,True. Yield before entering.
+316,11,multiple_choice,main,,Which way do you circle a roundabout?,Clockwise|Counter-clockwise|Either way,1,,,"A roundabout is a circular intersection. Yield to traffic inside, circle counter-clockwise, never change lanes and signal your exit."
+317,11,true_false,exercise,316,You must yield before entering a roundabout.,,true,,,True. Traffic already inside has the right of way.
+318,11,multiple_choice,exercise,316,Who has right of way at a roundabout?,Entering traffic|Largest vehicle|Traffic inside,2,,,Traffic already inside the roundabout does.
+319,11,true_false,exercise,316,You may change lanes inside a roundabout.,,false,,,False. Never change lanes inside a roundabout.
+320,11,select_blank,exercise,316,Signal when you ___ the roundabout.,exit|enter|pass,0,,,Signal your exit.
+321,11,true_false,exercise,316,Roundabouts go clockwise.,,false,,,False. Traffic circles counter-clockwise.
+322,11,true_false,preview,323,Following distance and right of way both prevent collisions.,,true,,,True. Both give you time and space.
+323,11,multiple_choice,main,,What is the minimum gap behind a car?,One second|Two seconds|Ten seconds,1,,,Keep at least two seconds behind the vehicle ahead.
+324,11,match_pairs,exercise,323,Match each term to its meaning.,Following distance↔Gap behind a car|Reaction time↔Time to respond|Right of way↔Right to go first|Roundabout↔Circular intersection,,,,Each term helps you share the road safely.
+325,11,select_blank,exercise,323,Unsigned roads elsewhere default to ___ km/h.,50|100|80,2,,,The default limit outside towns is 80 km/h.
+326,11,true_false,exercise,323,Yield means to let others go first.,,true,,,True. Slow or stop and let others go.
+327,11,true_false,exercise,323,Roundabouts circle clockwise.,,false,,,False. They circle counter-clockwise.
+328,11,multiple_choice,exercise,323,Equal arrival: who yields?,Left car|Right car|Smaller car,0,,,The driver on the left yields to the right.
+329,11,true_false,exercise,323,Right turn on red needs a full stop.,,true,,,"True. Stop completely, then go when clear."
+330,11,match_pairs,exercise,323,"Match each term, round 1.",Following distance↔Gap behind cars|Reaction time↔Time to respond|Stopping distance↔Distance to halt|Right of way↔Right to go first,,,,Each term goes with its short meaning.
+331,12,true_false,preview,332,Signal well before you turn.,,true,,,True. A shoulder check comes before the turn.
+332,12,multiple_choice,main,,What is a shoulder check?,Check tires|Glance behind|Honk twice,1,,,"A shoulder check is a quick look over your shoulder. Signal early; use turning lanes, with right turns in the right lane."
+333,12,true_false,exercise,332,A shoulder check is a look over your shoulder.,,true,,,True. It shows what your mirrors miss.
+334,12,select_blank,exercise,332,Left turns start in the far ___ lane.,right|centre|left,2,,,Left turns start and end in the far left lane.
+335,12,multiple_choice,exercise,332,When should you signal?,Well before|At turning|Afterward,0,,,Signal well before you turn.
+336,12,true_false,exercise,332,Right turns start in the left lane.,,false,,,False. Right turns start in the right lane.
+337,12,select_blank,exercise,332,Do a ___ check before turning.,tire|shoulder|oil,1,,,A shoulder check checks your blind areas.
+338,12,multiple_choice,exercise,332,Which lane for right turns?,Left lane|Centre lane|Right lane,2,,,Right turns use the right lane.
+339,12,true_false,preview,340,Mirrors do not show your blind spot.,,true,,,True. Look over your shoulder.
+340,12,multiple_choice,main,,What is a blind spot?,Unseen area|Dirty mirror|Dark road,0,,,A blind spot is the area beside and behind your vehicle that mirrors do not show. Check it with a shoulder check before changing lanes.
+341,12,true_false,exercise,340,Mirrors show your whole blind spot.,,false,,,False. Mirrors miss it; do a shoulder check.
+342,12,select_blank,exercise,340,Check your blind spot before changing ___.,radio|lanes|gears,1,,,Check it before every lane change.
+343,12,multiple_choice,exercise,340,How do you check a blind spot?,Honk|Brake|Shoulder check,2,,,Look over your shoulder.
+344,12,true_false,exercise,340,Lane changes need a blind spot check.,,true,,,True. Always check before changing lanes.
+345,12,true_false,preview,346,Pass on the left when it is safe.,,true,,,True. A solid line on your side forbids passing.
+346,12,multiple_choice,main,,Where do you normally pass?,Left side|Right side|Shoulder,0,,,Pass on the left; a solid line means no passing. Return to your lane when you see the passed car's front in your mirror.
+347,12,true_false,exercise,346,A solid line on your side forbids passing.,,true,,,True. A solid line means it is unsafe to pass.
+348,12,select_blank,exercise,346,Pass on the ___ side normally.,right|left|shoulder,1,,,Passing is normally on the left.
+349,12,select_blank,exercise,346,Return when you see its ___ in your mirror.,roof|plate|front,2,,,Return when you see the whole front of the passed vehicle.
+350,12,true_false,exercise,346,You may pass on a solid yellow line.,,false,,,False. A solid yellow line on your side forbids passing.
+351,12,multiple_choice,exercise,346,Which line forbids passing?,Solid yellow|Broken yellow|Broken white,0,,,A solid yellow line on your side means no passing.
+352,12,true_false,exercise,346,Passing normally happens on the right.,,false,,,False. Passing is normally done on the left.
+353,13,true_false,preview,354,You may not park within three metres of a hydrant.,,true,,,True. Other no-parking spots exist too.
+354,13,multiple_choice,main,,How far from a hydrant must you stay?,1 metre|3 metres|10 metres,1,,,"Do not park near hydrants (within 3 m), near crosswalks, or near railway crossings (within 15 m of the nearest rail)."
+355,13,select_blank,exercise,354,Stay ___ metres from a hydrant.,1|10|3,2,,,Keep three metres clear of a fire hydrant.
+356,13,select_blank,exercise,354,Stay ___ metres from a railway crossing.,15|3|6,0,,,Stay 15 metres from the nearest rail.
+357,13,true_false,exercise,354,You may park in front of a crosswalk.,,false,,,False. Do not park where you block a crosswalk.
+358,13,multiple_choice,exercise,354,Which is a no-parking spot?,Near trees|Near hydrants|Near mailboxes,1,,,Do not park near a fire hydrant.
+359,13,true_false,exercise,354,Hydrants need three metres clear.,,true,,,True. Keep three metres clear.
+360,13,true_false,exercise,354,Railway crossings need 15 metres clear.,,true,,,True. Stay 15 m from the nearest rail.
+361,13,true_false,preview,362,Turn your wheels toward the curb when parking downhill.,,true,,,True. Uphill wheels turn toward the road.
+362,13,multiple_choice,main,,"Uphill with a curb, wheels point where?",Toward curb|Straight|Toward road,2,,,"Downhill, curb the wheels toward the curb; uphill, toward the road. Parallel park about 30 cm from the curb and leave a gap."
+363,13,true_false,exercise,362,"Downhill with a curb, turn wheels toward the curb.",,true,,,"True. If the car rolls, the curb stops it."
+364,13,select_blank,exercise,362,Parallel park about ___ cm from the curb.,30|3|300,0,,,Park about 30 cm from the curb.
+365,13,true_false,exercise,362,"Uphill with a curb, wheels turn toward the curb.",,false,,,"False. Uphill, turn wheels toward the road."
+366,13,select_blank,exercise,362,Leave a ___ when parallel parking.,horn|gap|note,1,,,Leave a gap between vehicles.
+367,13,multiple_choice,exercise,362,How close to the curb should you park?,3 m|1 m|30 cm,2,,,About 30 centimetres from the curb.
+368,13,true_false,exercise,362,Parallel parking means parking beside the curb.,,true,,,True. You park in line along the road.
+369,14,true_false,preview,370,Leave at least one metre when passing a cyclist.,,true,,,True. Failing to do so brings a fine.
+370,14,multiple_choice,main,,How much room when passing a cyclist?,One metre|Half metre|Ten metres,0,,,Stop and yield at pedestrian crossovers. When passing a cyclist leave at least one metre where practical; failing to do so brings a fine.
+371,14,true_false,exercise,370,You must yield at pedestrian crossovers.,,true,,,True. Stop and wait for pedestrians to cross.
+372,14,select_blank,exercise,370,Leave one ___ when passing cyclists.,foot|metre|hand,1,,,Leave at least one metre.
+373,14,multiple_choice,exercise,370,At a pedestrian crossover you must ___.,Honk|Speed up|Yield,2,,,Yield to pedestrians.
+374,14,true_false,exercise,370,A cyclist needs no space when passed.,,false,,,False. Leave at least one metre where practical.
+375,14,true_false,preview,376,Flashing red lights on a school bus mean stop.,,true,,,True. Stop in both directions unless a median separates traffic.
+376,14,multiple_choice,main,,How far back must you stop?,20 metres|5 metres|2 metres,0,,,"Stop for school buses at least 20 m back when red lights flash, in both directions unless a median separates traffic."
+377,14,true_false,exercise,376,"With a median, traffic behind the bus stops.",,true,,,True. Traffic behind the bus must always stop.
+378,14,select_blank,exercise,376,Stop at least ___ metres from the bus.,2|20|5,1,,,Stop at least 20 metres back.
+379,14,true_false,exercise,376,Only vehicles behind the bus ever stop.,,false,,,"False. Without a median, traffic in both directions stops."
+380,14,multiple_choice,exercise,376,Which signal means stop for a bus?,Flashing amber|Green|Flashing red,2,,,Flashing red lights mean you must stop.
+381,14,select_blank,exercise,376,Stop in both ___ unless a median separates traffic.,directions|lanes|hours,0,,,"Without a median, both directions must stop."
+382,14,true_false,exercise,376,You must stop when red lights flash.,,true,,,True. Wait until the lights stop flashing and the bus moves.
+383,14,true_false,preview,384,Pull over when an emergency vehicle approaches with sirens.,,true,,,True. Also move over for stopped ones.
+384,14,multiple_choice,main,,What does the move over law require?,Speed up|Move over|Honk,1,,,Pull over for emergency vehicles with sirens. The move over law: slow down and move over a lane for stopped ones with flashing lights.
+385,14,true_false,exercise,384,You must pull over for sirens.,,true,,,True. Pull over and stop when sirens approach.
+386,14,select_blank,exercise,384,The ___ over law protects stopped responders.,pull|drive|move,2,,,It is called the move over law.
+387,14,multiple_choice,exercise,384,A stopped police car has lights flashing. You ___.,Move over|Speed past|Honk,0,,,Slow down and move over a lane if you can.
+388,14,true_false,exercise,384,The move over law applies to stopped emergency vehicles.,,true,,,True. Slow down and move over.
+389,14,multiple_choice,exercise,384,What do sirens mean?,Speed up|Pull over|Honk,1,,,Pull over and stop.
+390,14,true_false,exercise,384,You may ignore emergency vehicles.,,false,,,False. Failing to pull over is an offence.
+391,14,true_false,preview,392,Trucks have big blind spots.,,true,,,True. They also swing wide on turns.
+392,14,multiple_choice,main,,Why avoid tailgating trucks?,Slow speed|Noise|Blind spots,2,,,Truck blind spots are big and trucks make wide turns. Streetcar stopping rules: stay 2 m behind rear doors.
+393,14,true_false,exercise,392,Unseen in a truck's mirror means unseen by it.,,true,,,"True. If you can't see their face in the mirror, they can't see you."
+394,14,select_blank,exercise,392,Trucks swing ___ on turns.,wide|tight|fast,0,,,Trucks make wide turns.
+395,14,multiple_choice,exercise,392,How far behind streetcar doors?,20 metres|2 metres|0 metres,1,,,Stay at least two metres behind the rear doors.
+396,14,true_false,exercise,392,Trucks have blind spots.,,true,,,True. Keep out of them.
+397,14,select_blank,exercise,392,Stay 2 metres behind streetcar ___.,wheels|roofs|doors,2,,,Stay behind the rear doors.
+398,14,multiple_choice,exercise,392,Which is a truck hazard?,Blind spots|Short length|Light weight,0,,,Large trucks have large blind spots.
+399,14,true_false,preview,400,Shoulder checks and blind spots keep others safe.,,true,,,True. Check before you turn or change lanes.
+400,14,multiple_choice,main,,What do you check before turning?,Radio|Shoulder|Tires,1,,,Do a shoulder check before turning or changing lanes.
+401,14,match_pairs,exercise,400,Match each item to its meaning.,Shoulder check↔Look behind|Blind spot↔Unseen area|Move over law↔Move for responders|School bus red lights↔Stop,,,,Each item helps you share the road safely.
+402,14,select_blank,exercise,400,Leave one ___ passing a cyclist.,foot|inch|metre,2,,,Leave at least one metre.
+403,14,true_false,exercise,400,You may ignore flashing red on a school bus.,,false,,,False. You must stop.
+404,14,multiple_choice,exercise,400,Pull over for ___.,Sirens|Rain|Fog,0,,,Pull over for emergency vehicles with sirens.
+405,14,true_false,exercise,400,Trucks swing wide on turns.,,true,,,True. Stay out of them.
+406,14,multiple_choice,exercise,400,Which is a safe following gap?,Half second|Two seconds|None,1,,,At least two seconds.
+407,14,match_pairs,exercise,400,"Match each term, round 1.",Roundabout↔Circular intersection|Shoulder check↔Look over shoulder|Blind spot↔Unseen mirror area,,,,Each term goes with its short meaning.
+408,15,true_false,preview,409,Speed up in the acceleration lane before merging.,,true,,,True. Match the traffic speed.
+409,15,multiple_choice,main,,What do you do in an acceleration lane?,Stop|Reverse|Speed up,2,,,"A freeway has no lights or stop signs. Use the acceleration lane to match traffic speed, signal and merge into a gap."
+410,15,select_blank,exercise,409,Speed up in the ___ lane.,acceleration|exit|parking,0,,,The acceleration lane lets you reach traffic speed.
+411,15,true_false,exercise,409,You should stop at the end of the ramp.,,false,,,False. Match traffic speed and merge.
+412,15,multiple_choice,exercise,409,"To merge, find a ___.",sign|gap|toll,1,,,Find a gap in traffic.
+413,15,true_false,exercise,409,A freeway has stop signs.,,false,,,False. A freeway has no lights or stop signs.
+414,15,select_blank,exercise,409,A ___ has no lights or stop signs.,street|lane|freeway,2,,,That describes a freeway.
+415,15,multiple_choice,exercise,409,Before merging you should ___.,Signal|Brake hard|Reverse,0,,,Signal and check for a gap.
+416,15,true_false,preview,417,"Slow down on the exit ramp, not on the freeway.",,true,,,True. Use the deceleration lane.
+417,15,multiple_choice,main,,Where do you slow to exit?,Left lane|Deceleration lane|Shoulder,1,,,"Keep lane discipline: stay right unless passing. Signal, enter the deceleration lane, slow down to ramp speed. Missed an exit? Take the next."
+418,15,true_false,exercise,417,"If you miss your exit, reverse.",,false,,,False. Take the next exit; never reverse.
+419,15,select_blank,exercise,417,Missed an exit? Take the ___ one.,last|same|next,2,,,Take the next exit.
+420,15,true_false,exercise,417,Stay in the right lane unless passing.,,true,,,True. This is lane discipline.
+421,15,select_blank,exercise,417,Slow down to ramp ___.,speed|gear|time,0,,,Slow to the posted ramp speed.
+422,15,multiple_choice,exercise,417,Which is good lane discipline?,Weave often|Keep right|Hog left,1,,,Keep right unless passing.
+423,15,multiple_choice,exercise,417,Where does an exit begin?,Passing lane|Median|Deceleration lane,2,,,Move into the deceleration lane.
+424,15,true_false,preview,425,Fines are doubled in community safety zones.,,true,,,"True. They protect people, often near schools."
+425,15,multiple_choice,main,,What happens to fines in a community safety zone?,Doubled|Halved|Waived,0,,,"A community safety zone is a stretch of road, such as near a school, where traffic fines are doubled to protect people."
+426,15,true_false,exercise,425,Fines are halved in safety zones.,,false,,,False. Fines are doubled.
+427,15,select_blank,exercise,425,Safety-zone fines are ___.,waived|doubled|halved,1,,,They are doubled.
+428,15,multiple_choice,exercise,425,Where is a community safety zone?,On freeways|In garages|Near schools,2,,,Often near schools.
+429,15,true_false,exercise,425,Community safety zones protect people.,,true,,,True. Doubled fines encourage safer driving.
+430,15,true_false,preview,431,Never race a train to a crossing.,,true,,,True. Wait until the gates rise.
+431,15,multiple_choice,main,,How far from the rail must you stop?,5 metres|1 metre|20 metres,0,,,"Stop before the crossing, at least 5 m from the nearest rail or gate. Never race a train or drive around gates."
+432,15,true_false,exercise,431,You may drive around a lowered gate.,,false,,,False. Never drive around a gate.
+433,15,select_blank,exercise,431,Stop ___ metres from the nearest rail.,1|5|15,1,,,Stop at least five metres from the rail or gate.
+434,15,multiple_choice,exercise,431,Gates are down. You should ___.,Drive around|Race|Wait,2,,,Wait until the gates rise.
+435,15,true_false,exercise,431,You may race a train if you are quick.,,false,,,False. Never race a train.
+436,16,true_false,preview,437,Use low beams within 150 metres of oncoming traffic.,,true,,,True. Switch high beams to low.
+437,16,multiple_choice,main,,When do you switch to low beams?,Near oncoming|Never|Daylight,0,,,Use headlights from half an hour before sunset. Switch high beams to low within 150 m of oncoming traffic. Slow down at night.
+438,16,select_blank,exercise,437,Low beams within ___ m of oncoming.,15|150|60,1,,,Within 150 metres of oncoming traffic.
+439,16,true_false,exercise,437,High beams are fine for oncoming drivers.,,false,,,False. They blind oncoming drivers.
+440,16,multiple_choice,exercise,437,Headlights are required from ___.,Noon|Midnight|Before sunset,2,,,From half an hour before sunset.
+441,16,true_false,exercise,437,Night driving needs slower speed.,,true,,,True. You see less at night.
+442,16,select_blank,exercise,437,Use ___ beams near oncoming cars.,low|high|fog,0,,,Low beams avoid glare.
+443,16,multiple_choice,exercise,437,Why slow down at night?,More traffic|See less|Cooler air,1,,,You cannot see as far ahead at night.
+444,16,true_false,preview,445,Use low beams in fog.,,true,,,True. High beams reflect off the fog.
+445,16,multiple_choice,main,,What do you use in fog?,High beams|No lights|Low beams,2,,,In fog use low beams (high beams reflect) and fog lights. Reduce speed and keep more distance; winter tires grip better in snow.
+446,16,true_false,exercise,445,High beams help in fog.,,false,,,False. High beams reflect off the fog.
+447,16,select_blank,exercise,445,"In fog, use ___ beams.",low|high|blinking,0,,,Low beams reduce glare.
+448,16,multiple_choice,exercise,445,Snow calls for reduced ___.,Fuel|Speed|Music,1,,,Reduce speed in snow.
+449,16,true_false,exercise,445,Winter tires grip better in snow.,,true,,,True. They are designed for cold and snow.
+450,16,select_blank,exercise,445,Use ___ lights if you have them in fog.,brake|dome|fog,2,,,Fog lights help in fog.
+451,16,multiple_choice,exercise,445,Which setting avoids glare in fog?,Low beams|High beams|Hazards,0,,,Low beams.
+452,16,true_false,preview,453,"In a skid, steer where you want to go.",,true,,,True. Ease off the pedals first.
+453,16,select_blank,main,,"In a skid, steer where you want to ___.",stop|go|park,1,,,A skid is a loss of tire grip. Ease off the pedals and steer where you want to go. Most skids come from speed.
+454,16,true_false,exercise,453,Braking hard fixes a skid.,,false,,,False. Ease off the pedals and steer.
+455,16,select_blank,exercise,453,Most skids come from ___.,luck|music|speed,2,,,Most skids come from driving too fast.
+456,16,multiple_choice,exercise,453,A skid is a loss of ___.,grip|fuel|power,0,,,A skid is a loss of tire grip.
+457,16,true_false,exercise,453,Easing off the pedals helps in a skid.,,true,,,True. Then steer where you want to go.
+458,16,true_false,preview,459,Stay at the scene of a collision.,,true,,,True. Leaving is an offence.
+459,16,multiple_choice,main,,When must you call police?,"Never|Over $5,000|Always",1,,,"Stop at the scene. Call police if anyone is hurt or damage tops $5,000. Exchange information and call your insurer."
+460,16,true_false,exercise,459,You may leave a collision scene quickly.,,false,,,False. You must stay at the scene.
+461,16,select_blank,exercise,459,Call police if damage tops $___.,"500|50|5,000",2,,,"Call police when damage tops $5,000 or someone is hurt."
+462,16,multiple_choice,exercise,459,What must you exchange?,Information|Keys|Cash,0,,,Exchange information with the other driver.
+463,16,true_false,exercise,459,Drivers must stay at the scene.,,true,,,True. Stay or return immediately.
+464,16,select_blank,exercise,459,Exchange ___ with the other driver.,jackets|information|gifts,1,,,Exchange your details.
+465,16,multiple_choice,exercise,459,Who should you call after a crash?,A neighbour|A chef|Your insurer,2,,,Contact your insurer as soon as possible.
+466,16,true_false,preview,467,Safe driving combines many small habits.,,true,,,True. Review the key ones.
+467,16,multiple_choice,main,,Which can cause a skid?,Speeding|Signalling|Seatbelts,0,,,Most skids come from driving too fast.
+468,16,match_pairs,exercise,467,Match each item to its meaning.,Right of way↔Right to go first|Blind spot↔Area mirrors miss|Move over law↔Slow and move over|Skid↔Loss of grip,,,,Each term is part of safe driving.
+469,16,select_blank,exercise,467,Tailgating breaks the ___-second rule.,ten|two|five,1,,,Keep at least two seconds behind.
+470,16,true_false,exercise,467,Fog calls for low beams.,,true,,,True. High beams reflect off fog.
+471,16,multiple_choice,exercise,467,Which has doubled fines?,Parking lots|Garages|Safety zones,2,,,Community safety zones.
+472,16,true_false,exercise,467,Freeway merging needs an acceleration lane.,,true,,,True. Match speed before merging.
+473,16,select_blank,exercise,467,Stay at the ___ of a collision.,scene|front|back,0,,,Stay at the scene.
+474,16,match_pairs,exercise,467,"Match each term, round 1.",Move over law↔Slow and move over|Freeway↔Ramp-access highway|Merge↔Join moving traffic|Community safety zone↔Doubled-fine area,,,,Each term goes with its short meaning.
+475,17,true_false,preview,476,Novice drivers must have zero blood alcohol.,,true,,,True. Impaired driving is a serious offence.
+476,17,select_blank,main,,Driving after alcohol or drugs is ___ driving.,careful|impaired|slow,1,,,"Impaired driving is driving with your ability reduced by alcohol or drugs, including some medications. Novice drivers must have zero blood alcohol."
+477,17,true_false,exercise,476,Drugs can impair driving.,,true,,,True. Some medications can impair driving too.
+478,17,select_blank,exercise,476,Drivers 21 and under need ___ blood alcohol.,low|legal|zero,2,,,Zero blood alcohol is required.
+479,17,multiple_choice,exercise,476,Which can impair driving?,Some medications|Seat heaters|Sunglasses,0,,,"Alcohol, drugs and some medications can impair driving."
+480,17,true_false,exercise,476,A novice driver may have one drink.,,false,,,False. Novice drivers must have zero blood alcohol.
+481,17,select_blank,exercise,476,Impaired driving is a serious ___.,hobby|offence|habit,1,,,It is a serious offence.
+482,17,multiple_choice,exercise,476,Zero blood alcohol means ___.,One drink|Two drinks|No alcohol,2,,,No alcohol at all.
+483,17,true_false,preview,484,Hand-held phones are banned while driving.,,true,,,True. So is texting.
+484,17,multiple_choice,main,,What does the handheld ban cover?,Texting|Radios|Mirrors,0,,,Distracted driving means your attention is elsewhere. A handheld device ban covers phones and texting; program navigation by voice.
+485,17,true_false,exercise,484,Distracted driving allows texting at red lights.,,false,,,False. Texting while driving is illegal.
+486,17,select_blank,exercise,484,Program your navigation by ___.,hand|voice|touch,1,,,Navigation may be programmed only by voice.
+487,17,multiple_choice,exercise,484,Which is illegal while driving?,Singing|Humming|Texting,2,,,Texting on a hand-held device is illegal.
+488,17,true_false,exercise,484,Texting while driving is illegal.,,true,,,True. It is distracted driving.
+489,17,true_false,preview,490,Drowsy driving is dangerous.,,true,,,True. Fatigue can make you fall asleep.
+490,17,multiple_choice,main,,What should you do when tired?,Rest|Open window|Drive faster,0,,,Do not drive when fatigued. Risk is highest 2 to 6 a.m. and 2 to 4 p.m.; take a break or stop driving.
+491,17,true_false,exercise,490,Fatigue can make you fall asleep.,,true,,,True. Do not drive when fatigued.
+492,17,select_blank,exercise,490,Take a ___ when tired.,risk|break|toll,1,,,Take a break or stop driving.
+493,17,multiple_choice,exercise,490,Risk is highest 2 to 6 a.m. and ___.,10-12 a.m.|8-9 p.m.|2-4 p.m.,2,,,Early afternoon is also a high-risk time.
+494,17,true_false,exercise,490,Drive on when sleepy.,,false,,,False. Stop and take a break.
+495,18,true_false,preview,496,Traffic convictions add demerit points.,,true,,,True. Points stay on your record.
+496,18,multiple_choice,main,,How long do points stay on record?,Two years|One year|Five years,0,,,Demerit points are added to your record for certain traffic convictions and stay for two years. Speeding adds 3 to 6 points.
+497,18,select_blank,exercise,496,Points stay on your record for ___ years.,one|two|five,1,,,They stay for two years.
+498,18,true_false,exercise,496,Speeding adds points.,,true,,,True. Speeding adds 3 to 6 points.
+499,18,multiple_choice,exercise,496,How many points can speeding add?,10|None|3-6,2,,,Speeding adds three to six points.
+500,18,true_false,exercise,496,Points disappear in a month.,,false,,,False. They stay for two years.
+501,18,select_blank,exercise,496,___ points are added for convictions.,Demerit|Bonus|Safety,0,,,They are called demerit points.
+502,18,multiple_choice,exercise,496,Points go on your ___.,Passport|Driving record|Bank,1,,,They go on your driving record.
+503,18,true_false,preview,504,Novice drivers face suspension at nine points.,,true,,,True. Full licence holders have a higher limit.
+504,18,multiple_choice,main,,Novice suspension: how many points?,15|6|9,2,,,Convictions at G1 and G2 bring warning letters at 2 and 6 points and a 60-day suspension at 9 or more.
+505,18,select_blank,exercise,504,A novice faces a ___-day suspension at 9 points.,60|30|90,0,,,The suspension is 60 days.
+506,18,true_false,exercise,504,Novice drivers get a letter at 2 points.,,true,,,True. A warning letter comes at 2 points.
+507,18,multiple_choice,exercise,504,Who is suspended at 9 points?,Seniors|Novice drivers|Passengers,1,,,Novice drivers (G1 and G2).
+508,18,true_false,exercise,504,Breaking novice conditions can mean suspension.,,true,,,True. It can bring a suspension.
+509,18,select_blank,exercise,504,A second letter comes at ___ points.,2|9|6,2,,,A second warning letter comes at 6 points.
+510,18,multiple_choice,exercise,504,G1 and G2 drivers are ___ drivers.,novice|senior|full,0,,,They are novice drivers.
+511,18,true_false,preview,512,Stunt driving can cost you your licence.,,true,,,True. Racing is stunt driving.
+512,18,multiple_choice,main,,Which is stunt driving?,Parallel parking|Racing|Signalling,1,,,"Stunt driving includes racing, speeding 50 km/h or more over the limit, and cutting off another vehicle. It can mean licence suspension."
+513,18,true_false,exercise,512,Racing can lead to suspension.,,true,,,True. Racing is stunt driving.
+514,18,select_blank,exercise,512,Speeding 50 km/h over the limit is ___ driving.,safe|slow|stunt,2,,,It is stunt driving.
+515,18,multiple_choice,exercise,512,Which can suspend your licence?,Stunt driving|Signalling|Parking,0,,,Stunt driving can.
+516,18,true_false,exercise,512,Cutting off a car on purpose is fine.,,false,,,False. It counts as stunt driving.
+517,19,true_false,preview,518,Replace tires when tread is under 1.5 millimetres.,,true,,,True. Check brakes and lights too.
+518,19,multiple_choice,main,,Replace tires below what tread depth?,5 mm|1.5 mm|10 mm,1,,,"Replace tires when tread is under 1.5 mm. Listen for squeaking or grinding when braking, and replace burned-out lights immediately."
+519,19,select_blank,exercise,518,Replace tires when tread is under ___ mm.,5|10|1.5,2,,,The limit is 1.5 millimetres.
+520,19,true_false,exercise,518,Grinding when braking is a warning sign.,,true,,,True. Have your brakes checked.
+521,19,multiple_choice,exercise,518,Burned-out lights should be ___.,Replaced|Ignored|Painted,0,,,Replace them immediately.
+522,19,true_false,exercise,518,Tires never need replacing.,,false,,,False. Replace them when tread is under 1.5 mm.
+523,19,select_blank,exercise,518,Squeaking or ___ when braking needs attention.,humming|grinding|singing,1,,,Squeaking or grinding means brakes need attention.
+524,19,multiple_choice,exercise,518,Which tires need replacing?,Clean tires|New tires|Exposed cords,2,,,Tires with exposed cords must be replaced.
+525,19,true_false,preview,526,Every registered vehicle must be insured.,,true,,,True. Insurance is compulsory.
+526,19,multiple_choice,main,,What must every registered vehicle have?,Insurance|A radio|Winter tires,0,,,"Every registered vehicle must be insured. A vehicle permit is required, and licence plates stay with the owner, not the vehicle."
+527,19,true_false,exercise,526,Plates stay with the vehicle when sold.,,false,,,False. Plates stay with the owner.
+528,19,select_blank,exercise,526,Plates belong to the ___.,vehicle|owner|dealer,1,,,Plates stay with the owner.
+529,19,multiple_choice,exercise,526,Insurance in Ontario is ___.,Optional|Seasonal|Compulsory,2,,,It is compulsory.
+530,19,true_false,exercise,526,A vehicle permit is required.,,true,,,True. You need a vehicle permit.
+531,19,select_blank,exercise,526,Every vehicle must be ___.,insured|painted|washed,0,,,Insurance is compulsory.
+532,19,multiple_choice,exercise,526,What do you carry as proof?,Gym card|Vehicle permit|Library card,1,,,A vehicle permit is part of your vehicle documents.
+533,19,true_false,preview,534,Strap everything down when carrying a load.,,true,,,True. An unsecured load is an offence.
+534,19,multiple_choice,main,,What must you do with a load?,Hide it|Weigh it|Secure it,2,,,Securing loads: strap everything down; a load that can fall off is an offence. Towing: never carry people in a trailer.
+535,19,true_false,exercise,534,Unsecured loads are an offence.,,true,,,True. A load that can fall off is an offence.
+536,19,select_blank,exercise,534,Strap everything ___ inside and outside.,down|up|in,0,,,Strap it down.
+537,19,multiple_choice,exercise,534,Who may ride in a towed trailer?,Children|No one|Pets,1,,,Never carry people in a trailer.
+538,19,true_false,exercise,534,People may ride in a towed trailer.,,false,,,False. Never carry people in a trailer.
+539,20,true_false,preview,540,The G1 road test checks basic driving skills.,,true,,,True. Passing it moves you to G2.
+540,20,multiple_choice,main,,What does the G1 road test check?,Racing|Parking only|Basic skills,2,,,"The G1 road test checks basic skills in a vehicle and in traffic: starting, stopping, turning and spotting hazards. Passing moves you to G2."
+541,20,true_false,exercise,540,The G1 road test leads to G2.,,true,,,True. Passing it moves you to G2.
+542,20,select_blank,exercise,540,The G1 road test checks ___ driving skills.,basic|advanced|racing,0,,,It checks basic skills.
+543,20,multiple_choice,exercise,540,Which skill is tested?,Typing|Turning|Cooking,1,,,Turning is one of the basic skills.
+544,20,true_false,exercise,540,The G1 test includes spotting hazards.,,true,,,True. Recognizing hazards is checked.
+545,20,true_false,preview,546,The G2 road test checks advanced skills.,,true,,,True. It includes highway driving.
+546,20,multiple_choice,main,,What does the G2 test add?,Typing|Biking|Highway driving,2,,,"The G2 road test checks advanced skills, including highway driving. You declare highway experience (80+ km/h roads) from the last three months."
+547,20,select_blank,exercise,546,The G2 test includes ___ driving.,highway|off-road|racing,0,,,It includes highway driving.
+548,20,true_false,exercise,546,G2 needs a highway experience declaration.,,true,,,True. You declare recent highway driving.
+549,20,multiple_choice,exercise,546,How recent must highway experience be?,One year|Three months|One week,1,,,Within the last three months.
+550,20,true_false,exercise,546,The G2 test is easier than G1.,,false,,,False. It checks advanced skills.
+551,20,true_false,preview,552,"Licensing, rules and safety fit together.",,true,,,True. Review the key ideas.
+552,20,multiple_choice,main,,Which step requires an accompanying driver?,G2|G|G1,2,,,G1 drivers must have an accompanying driver.
+553,20,match_pairs,exercise,552,Match each item to its meaning.,Graduated licensing↔Three steps|Demerit points↔Stay two years|Impaired driving↔Alcohol or drugs|G2 road test↔Highway driving,,,,Each item is part of becoming a safe licensed driver.
+554,20,select_blank,exercise,552,Right of way is the right to go ___.,first|last|fast,0,,,It is the right to go first.
+555,20,true_false,exercise,552,Navigation must be programmed by voice.,,true,,,True. Hand-held programming is illegal.
+556,20,true_false,exercise,552,Stunt driving can suspend a licence.,,true,,,True. Racing and extreme speeding are stunt driving.
+557,20,select_blank,exercise,552,Insurance is ___ for registered vehicles.,optional|compulsory|seasonal,1,,,Every registered vehicle must be insured.
+558,20,multiple_choice,exercise,552,Novice suspension begins at how many points?,15|2|9,2,,,Novice drivers face a suspension at nine points.
+559,20,match_pairs,exercise,552,"Match each term, round 1.",Skid↔Lost tire grip|Impaired driving↔Alcohol or drugs|Distracted driving↔Attention elsewhere|Demerit points↔Record penalty points,,,,Each term goes with its short meaning.
+560,1,multiple_choice,exam,,Graduated licensing has how many steps?,Three|Two|Four,0,,,"Class G1, Class G2, then full Class G."
+561,1,multiple_choice,exam,,A G1 driver must have an accompanying:,Passenger|Experienced driver|Instructor only,1,,,The accompanying driver has 4 or more years of experience.
+562,1,multiple_choice,exam,,G2 drivers may have blood alcohol of:,0.02|0.05|Zero,2,,,G2 drivers must also have zero blood alcohol.
+563,1,true_false,exam,,"G1 lasts twelve months, eight with a course.",,true,,,A beginner driver education course shortens it.
+564,1,multiple_choice,exam,,New residents may use their old licence for:,1 year|60 days|6 months,1,,,It is a sixty-day grace period.
+565,1,multiple_choice,exam,,Your eyesight is checked by a:,Road test|Knowledge test|Vision test,2,,,You also show original identity documents.
+566,2,multiple_choice,exam,,The G1 knowledge test has how many questions?,40|20|60,0,,,Twenty on road signs and twenty on rules of the road.
+567,2,multiple_choice,exam,,"After failing, wait at least:",30 days|10 days|1 day,1,,,Then you may retake the test.
+568,2,true_false,exam,,Only one road test is needed in total.,,false,,,There are two: one to leave G1 and one to leave G2.
+569,3,multiple_choice,exam,,A stop sign is an:,Octagon|Triangle|Diamond,0,,,Yield is a triangle.
+570,3,multiple_choice,exam,,Warning signs are shaped like:,Octagons|Diamonds|Circles,1,,,They are yellow with black symbols.
+571,3,multiple_choice,exam,,Which colour marks temporary hazards?,Green|Blue|Orange,2,,,Orange signs mean construction.
+572,4,multiple_choice,exam,,At a stop sign you must stop:,Completely|Briefly|Never,0,,,"Stop at the line, then go when safe."
+573,4,multiple_choice,exam,,A speed limit sign shows the:,Average speed|Maximum speed|Minimum speed,1,,,It is in km/h.
+574,4,multiple_choice,exam,,A red circle with a slash bans:,All turns|Parking only|That turn,2,,,For example no left turn.
+575,5,multiple_choice,exam,,A curve sign tells you to:,Slow down|Speed up|Stop,0,,,Slow before the bend.
+576,5,multiple_choice,exam,,A sign with an X shape warns of a:,School|Railway crossing|Hospital,1,,,Trains cannot stop quickly.
+577,5,multiple_choice,exam,,A slippery when wet sign means:,Pull over|Turn back|Slow down,2,,,Other signs warn of a bump or a narrow bridge.
+578,6,multiple_choice,exam,,Green signs are:,Guide signs|Warning signs|Regulatory signs,0,,,Exit and distance signs have white letters.
+579,7,multiple_choice,exam,,A red traffic light means:,Go|Stop|Slow,1,,,A right turn is allowed after stopping unless signed.
+580,7,multiple_choice,exam,,"A flashing red light means stop, then go:",Immediately|Never|When safe,2,,,A flashing yellow means caution.
+581,7,multiple_choice,exam,,A walking person signal means:,Cross|Wait|Run,0,,,An orange hand means do not start crossing.
+582,8,multiple_choice,exam,,Yellow lines separate:,Parking spaces|Opposite directions|The same direction,1,,,White lines separate the same direction.
+583,8,true_false,exam,,You may cross a solid yellow line on your side.,,false,,,A broken line means pass if clear.
+584,8,multiple_choice,exam,,A stop line is a single:,White line|Yellow line|Red line,0,,,A crosswalk has two white lines.
+585,9,multiple_choice,exam,,Who must wear a seatbelt?,Front seats|Everyone|Driver only,1,,,Airbags do not replace seatbelts.
+586,9,multiple_choice,exam,,Hold the wheel at nine and:,Six|Twelve|Three,2,,,Smooth steering is precise.
+587,10,multiple_choice,exam,,The default speed limit in cities is:,50 km/h|40 km/h|60 km/h,0,,,Obey the posted limit.
+588,10,multiple_choice,exam,,Keep a gap of at least:,Five seconds|Two seconds|One second,1,,,It is measured behind the vehicle ahead.
+589,10,multiple_choice,exam,,Reaction time is how long you take to:,Stop fully|Signal|Respond,2,,,Stopping distance is longer.
+590,11,multiple_choice,exam,,To yield means to:,Give way|Speed up|Honk,0,,,Slow or stop and let others go.
+591,11,multiple_choice,exam,,"At a tied four-way stop, yield to the:",Faster car|Right|Left,1,,,The first to stop goes first.
+592,11,multiple_choice,exam,,You may turn right on red after:,Slowing|Signalling|Stopping,2,,,Unless a sign bans it.
+593,11,multiple_choice,exam,,You circle a roundabout:,Counter-clockwise|Clockwise|Either way,0,,,Yield to traffic inside.
+594,12,multiple_choice,exam,,A shoulder check is a quick look:,Ahead|Behind you|At mirrors,1,,,It covers the blind spot.
+595,12,multiple_choice,exam,,A blind spot is an area mirrors:,Show clearly|Magnify|Cannot show,2,,,Check it before changing lanes.
+596,12,multiple_choice,exam,,You normally pass on the:,Left|Right|Shoulder,0,,,A solid line means no passing.
+597,13,multiple_choice,exam,,Stay at least how far from a hydrant?,10 metres|3 metres|1 metre,1,,,Also avoid crosswalks and railway crossings.
+598,13,multiple_choice,exam,,"Parked downhill, point the wheels:",Toward road|Straight|Toward curb,2,,,"Uphill, turn them toward the road."
+599,14,multiple_choice,exam,,Leave at least how much room for a cyclist?,One metre|Ten centimetres|Five metres,0,,,Yield at pedestrian crossovers too.
+600,14,multiple_choice,exam,,School bus flashing red: stop at least:,50 metres|20 metres|5 metres,1,,,Stop in both directions unless a median separates the road.
+601,14,multiple_choice,exam,,The move over law means slow down and:,Stop|Honk|Move over,2,,,It applies near emergency vehicles.
+602,15,multiple_choice,exam,,In an acceleration lane you:,Speed up|Slow down|Stop,0,,,Match traffic speed before merging.
+603,15,multiple_choice,exam,,Fines in a community safety zone are:,Waived|Doubled|Halved,1,,,Such zones are often near schools.
+604,15,multiple_choice,exam,,Stop how far from a railway crossing?,1 metre|20 metres|5 metres,2,,,Never race a train.
+605,16,multiple_choice,exam,,"Within 150 metres of oncoming traffic, use:",Low beams|High beams|Fog lamps,0,,,Switch high beams to low.
+606,16,multiple_choice,exam,,"In a skid, steer where you want to:",Stop|Go|Avoid,1,,,Ease off the pedals first.
+607,16,multiple_choice,exam,,Call police if damage tops:,"$500|$50,000|$5,000",2,,,Or if anyone is hurt.
+608,17,true_false,exam,,Using a hand-held phone while driving is banned.,,true,,,The ban covers phones and similar devices.
+609,17,multiple_choice,exam,,Novice drivers must have what blood alcohol?,0.05|Zero|0.02,1,,,This applies at G1 and G2.
+610,18,multiple_choice,exam,,Demerit points stay on your record for:,Six months|Ten years|Two years,2,,,They are added for certain convictions.
+611,18,multiple_choice,exam,,Novice drivers are suspended at:,Nine points|Three points|Fifteen points,0,,,Warnings come at two and six points.
+612,18,multiple_choice,exam,,Stunt driving includes:,Signalling|Racing|Parallel parking,1,,,Speeding 50 km/h or more over the limit also counts.
+613,19,multiple_choice,exam,,Replace tires when tread is under:,5 mm|10 mm|1.5 mm,2,,,Squeaking when braking is another warning.
+614,19,multiple_choice,exam,,Every registered vehicle must be:,Insured|Leased|New,0,,,A vehicle permit is also required.
+615,20,multiple_choice,exam,,The G2 road test adds:,Vision test|Highway driving|Parking only,1,,,It checks advanced skills.
