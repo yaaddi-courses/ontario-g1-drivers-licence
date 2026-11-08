@@ -1,0 +1,75 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+Getting Licensed,Graduated Licensing,What is graduated licensing?,1,Graduated licensing|Class G1|Class G2|Class G,Graduated licensing,teach,2
+Getting Licensed,Graduated Licensing,What are the G1 rules?,1,Accompanying driver|Zero blood alcohol|Time and highway limits,,teach,12
+Getting Licensed,Graduated Licensing,What are the G2 rules?,1,G2 passenger limits|Zero blood alcohol at G2,,teach,20
+Getting Licensed,Graduated Licensing,How long do G1 and G2 last?,1,Twelve months|Eight months with a course|Beginner driver education,Beginner driver education,teach,26
+Getting Licensed,Graduated Licensing,Which tests and documents do you need?,1,Vision test|Identity documents|Road tests,,teach,34
+Getting Licensed,Graduated Licensing,New to Ontario?,2,Sixty-day grace period|Licence exchange,,teach,42
+Getting Licensed,The G1 Knowledge Test,How is the knowledge test built?,1,Road signs section|Rules of the road section|Pass mark,,teach,48
+Getting Licensed,The G1 Knowledge Test,What if you fail?,1,Waiting period after a failed test,,teach,56
+Getting Licensed,The G1 Knowledge Test,Review: licensing steps and the test,1,Graduated licensing|Beginner driver education|Vision test|Road signs section,,review,61
+Signs and Signals,Sign Shapes and Colours,What do sign shapes tell you?,1,Octagon|Triangle|Diamond|Rectangle,,teach,70
+Signs and Signals,Sign Shapes and Colours,What do sign colours tell you?,1,Red and white regulatory|Yellow warning|Orange temporary,,teach,80
+Signs and Signals,Regulatory Signs,Stop and yield signs,1,Stop sign|Yield sign,,teach,88
+Signs and Signals,Regulatory Signs,Speed and parking signs,1,Speed limit sign|No parking sign|No stopping sign,,teach,94
+Signs and Signals,Regulatory Signs,No entry and one-way signs,1,Do not enter|One way|Wrong way,,teach,102
+Signs and Signals,Regulatory Signs,Turn and lane control signs,2,No left turn|No U-turn|Keep right,,teach,110
+Signs and Signals,Regulatory Signs,Review: licensing steps and regulatory signs,2,Graduated licensing|Beginner driver education|Stop sign|Speed limit sign,,review,118
+Signs and Signals,Warning Signs,Curves and hills,1,Curve warning|Steep hill|Winding road,,teach,126
+Signs and Signals,Warning Signs,Intersection and signal ahead,1,Intersection ahead|Traffic signal ahead,,teach,134
+Signs and Signals,Warning Signs,Merging and lanes ending,2,Lane ends|Divided road begins|Divided road ends,,teach,140
+Signs and Signals,Warning Signs,"Pedestrians, children and school areas",1,Pedestrian crossing|School zone|Playground,,teach,148
+Signs and Signals,Warning Signs,Railway crossing signs,2,Advance warning|X-shaped sign|Look both ways,,teach,156
+Signs and Signals,Warning Signs,Road surface and weather warnings,2,Slippery when wet|Bump|Narrow bridge,,teach,164
+Signs and Signals,Warning Signs,"Review: shapes, colours and signs",2,Octagon|Yield sign|No parking sign|Curve warning|Railway crossing sign,,review,172
+Signs and Signals,Temporary and Information Signs,Construction and temporary signs,2,Orange signs|Flagger ahead|Workers ahead,,teach,180
+Signs and Signals,Temporary and Information Signs,Guide and information signs,2,Green guide signs|Exit signs|Distance signs,,teach,188
+Signs and Signals,Traffic Lights and Pedestrian Signals,What do traffic lights mean?,1,Red|Yellow|Green,,teach,196
+Signs and Signals,Traffic Lights and Pedestrian Signals,Flashing and arrow signals,2,Flashing red|Flashing yellow|Green arrow,,teach,204
+Signs and Signals,Traffic Lights and Pedestrian Signals,Pedestrian signals,2,Walking person|Orange hand|Do not start crossing,,teach,212
+Signs and Signals,Pavement Markings,Yellow lines and white lines,2,Yellow lines|White lines|Bike lane line,,teach,220
+Signs and Signals,Pavement Markings,Solid or broken?,2,Solid line|Broken line|Continuity lines,,teach,228
+Signs and Signals,Pavement Markings,Stop lines and crosswalks,2,Stop line|Crosswalk|Pedestrian crossover,,teach,236
+Signs and Signals,Pavement Markings,Arrows and diamond markings,2,Lane arrows|Solid lines around objects,,teach,244
+Signs and Signals,Pavement Markings,"Review: lights, signals and markings",2,Flashing red|Walking person|Solid line|Stop line,,review,250
+Rules of the Road,Getting Ready to Drive,Before you drive,2,Seatbelt|Adjust mirrors|Check your vehicle,,teach,258
+Rules of the Road,Getting Ready to Drive,Controlling your vehicle,2,Hand position|Smooth steering|Parking brake,,teach,266
+Rules of the Road,Speed and Following Distance,What are the default speed limits?,2,Posted speed limit|Default limit in built-up areas|Default limit elsewhere,,teach,274
+Rules of the Road,Speed and Following Distance,How much space should you leave?,2,Following distance|Two-second rule,Following distance,teach,282
+Rules of the Road,Speed and Following Distance,How long does it take to stop?,2,Reaction time|Stopping distance,Reaction time|Stopping distance,teach,288
+Rules of the Road,Intersections and Right of Way,What is right of way?,2,Right of way|Yield,Right of way,teach,294
+Rules of the Road,Intersections and Right of Way,Four-way stops and uncontrolled intersections,2,Four-way stop|Uncontrolled intersection|Yield to the right,,teach,300
+Rules of the Road,Intersections and Right of Way,Turning left and right at lights,2,Left turn on green|Right turn on red|Pedestrians first,,teach,308
+Rules of the Road,Intersections and Right of Way,Roundabouts,3,Roundabout|Yield before entering,Roundabout,teach,316
+Rules of the Road,Intersections and Right of Way,Review: speed and right of way,2,Following distance|Stopping distance|Right of way|Roundabout,,review,323
+Rules of the Road,"Turning, Lane Changes and Passing",How do you signal and turn?,2,Signal early|Turning lanes|Shoulder check,Shoulder check,teach,332
+Rules of the Road,"Turning, Lane Changes and Passing",What is a blind spot?,2,Blind spot|Check before changing lanes,Blind spot,teach,340
+Rules of the Road,"Turning, Lane Changes and Passing",When can you pass?,3,Passing on the left|Solid line means no passing|Return to your lane,,teach,346
+Rules of the Road,Stopping and Parking,Where can't you park?,2,Near hydrants|Near crosswalks|Near railway crossings,,teach,354
+Rules of the Road,Stopping and Parking,Parking on hills and parallel parking,3,Curb the wheels|Parallel parking|Leave a gap,,teach,362
+Rules of the Road,Sharing the Road,Pedestrians and cyclists,2,Pedestrian crossover|One metre when passing a cyclist,,teach,370
+Rules of the Road,Sharing the Road,School buses,2,Flashing red lights|Stop for school buses|Both directions,,teach,376
+Rules of the Road,Sharing the Road,Emergency vehicles,2,Pull over for emergency vehicles|Move over law,Move over law,teach,384
+Rules of the Road,Sharing the Road,"Streetcars, buses and large trucks",3,Streetcar stopping rules|Truck blind spots|Wide turns,,teach,392
+Rules of the Road,Sharing the Road,Review: turning and sharing the road,3,Shoulder check|Blind spot|Move over law|Flashing red lights,,review,400
+Rules of the Road,Freeways and Special Roads,How do you merge onto a freeway?,3,Freeway|Merge|Acceleration lane,Freeway|Merge,teach,409
+Rules of the Road,Freeways and Special Roads,Exits and staying in your lane,3,Exit ramp|Slow down on the ramp|Lane discipline,,teach,417
+Rules of the Road,Freeways and Special Roads,Community safety zones and school zones,3,Community safety zone|Double fines,Community safety zone,teach,425
+Rules of the Road,Freeways and Special Roads,Railway crossings,3,Stop before the crossing|Never race a train,,teach,431
+Rules of the Road,"Night, Weather and Emergencies",Driving at night,2,Headlights|High beams|Slow down at night,,teach,437
+Rules of the Road,"Night, Weather and Emergencies","Fog, rain and snow",3,Fog lights|Reduce speed|Winter tires,,teach,445
+Rules of the Road,"Night, Weather and Emergencies",What is a skid and how do you recover?,3,Skid|Steer where you want to go,Skid,teach,453
+Rules of the Road,"Night, Weather and Emergencies",What to do after a collision,3,Stop at the scene|Call police|Exchange information,,teach,459
+Rules of the Road,"Night, Weather and Emergencies",Review: rules of the road,3,Right of way|Following distance|Blind spot|Move over law|Skid,,review,467
+Safe and Legal Driving,Impaired and Distracted Driving,Impaired driving and zero tolerance,2,Impaired driving|Zero blood alcohol for novice drivers|Drugs and driving,Impaired driving,teach,476
+Safe and Legal Driving,Impaired and Distracted Driving,What counts as distracted driving?,2,Distracted driving|Handheld device ban,Distracted driving,teach,484
+Safe and Legal Driving,Impaired and Distracted Driving,Drowsy driving,2,Fatigue|Take a break,,teach,490
+Safe and Legal Driving,Demerit Points and Suspensions,What are demerit points?,3,Demerit points|Points for speeding,Demerit points,teach,496
+Safe and Legal Driving,Demerit Points and Suspensions,What happens to novice drivers?,3,Novice driver suspension|Convictions at G1 and G2,,teach,504
+Safe and Legal Driving,Demerit Points and Suspensions,Other ways to lose your licence,3,Licence suspension|Stunt driving,,teach,512
+Safe and Legal Driving,"Vehicle, Insurance and Registration",Maintaining your vehicle,2,Tires|Brakes|Lights,,teach,518
+Safe and Legal Driving,"Vehicle, Insurance and Registration",Insurance and registration,2,Compulsory insurance|Vehicle permit|Licence plates,,teach,526
+Safe and Legal Driving,"Vehicle, Insurance and Registration",Towing and carrying loads,3,Towing|Securing loads,,teach,534
+Road Tests,The Road Tests,The G1 exit road test,3,G1 road test|Basic driving skills,,teach,540
+Road Tests,The Road Tests,The G2 exit road test,3,G2 road test|Highway driving,,teach,546
+Road Tests,The Road Tests,Review: getting licensed and driving safely,3,Graduated licensing|Demerit points|Impaired driving|Right of way|G2 road test,,review,552
